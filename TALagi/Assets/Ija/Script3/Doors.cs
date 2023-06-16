@@ -7,14 +7,11 @@ public class Doors : MonoBehaviour
     public Animator door;
     public GameObject openText;
 
-  //public AudioSource doorSound;
-
+    //public AudioSource doorSound;
 
     public bool inReach;
 
-
-
-
+    // Start is called before the first frame update
     void Start()
     {
         inReach = false;
@@ -38,39 +35,30 @@ public class Doors : MonoBehaviour
         }
     }
 
-
-
-
-
+    // Update is called once per frame
     void Update()
     {
-
         if (inReach && Input.GetButtonDown("Interact"))
         {
             DoorOpens();
         }
-
         else
         {
             DoorCloses();
         }
-
-
-
-
     }
+
     void DoorOpens()
     {
-        Debug.Log("It Opens");
+        Debug.Log("kebuka");
         door.SetBool("Open", true);
         door.SetBool("Closed", false);
-      //doorSound.Play();
-
+        //doorSound.Play();
     }
 
     void DoorCloses()
     {
-        Debug.Log("It Closes");
+        Debug.Log("Ketutup");
         door.SetBool("Open", false);
         door.SetBool("Closed", true);
     }
