@@ -11,6 +11,7 @@ public class FPScript : MonoBehaviour
     [Header("Functional Options")]
     [SerializeField] private bool canSprint = true;
     [SerializeField] private bool canJump = true;
+    [SerializeField] private bool useFootsSteps = true;
 
     [Header("Controls")]
     [SerializeField] private KeyCode sprintKey = KeyCode.LeftShift;
@@ -30,6 +31,16 @@ public class FPScript : MonoBehaviour
     [Header("Jumping Parameters")]
     [SerializeField] private float jumpForce = 8.0f;
     [SerializeField] private float gravity = 30.0f;
+
+    [Header("Footstep Parameters")]
+    [SerializeField] private float baseStepSpeed = 0.5f;
+    //[SerializeField] private float crouchStepMultipler = 1.5f;
+    [SerializeField] private float sprintStepMultipler = 0.6f;
+    [SerializeField] private AudioSource footstepAudioSource = default;
+    [SerializeField] private AudioClip[] woodClips = default;
+    [SerializeField] private AudioClip[] grassClips = default;
+    private float footStepTimer = 0;
+    private float GetCurrentOffset => IsSprinting ? baseStepSpeed * sprintStepMultipler : baseStepSpeed;
 
     private Camera playerCamera;
     private CharacterController characterController;
@@ -56,6 +67,8 @@ public class FPScript : MonoBehaviour
 
             if (canJump)
                 HandleJump();
+            if (useFootsSteps)
+                Handle_Footsteps();
 
             ApplyFinalMovements();
         }
@@ -84,6 +97,35 @@ public class FPScript : MonoBehaviour
     {
         if (ShouldJump)
             moveDirection.y = jumpForce;
+    }
+
+    private void Handle_Footsteps()
+    {
+        if (!characterController.isGrounded) return;
+        if (currentInput == Vector2.zero) return;
+
+        footStepTimer -= Time.deltaTime;
+
+        if(footStepTimer <= Time.deltaTime)
+        {
+            if(Physics.Raycast(playerCamera.transform.position, Vector3.down, out RaycastHit hit, 3))
+            {
+                switch (hit.collider.tag)
+                {
+                    case "Footsteps/Wood":
+                        footstepAudioSource.PlayOneShot(woodClips[Random.Range(0, woodClips.Length - 1)]);
+                        break;
+                    case "Footsteps/Grass":
+                        footstepAudioSource.PlayOneShot(grassClips[Random.Range(0, grassClips.Length - 1)]);
+                        break;
+                    default:
+                        footstepAudioSource.PlayOneShot(grassClips[Random.Range(0, grassClips.Length - 1)]);
+                        break;
+
+                }
+            }
+            footStepTimer = GetCurrentOffset;
+        }
     }
 
     private void ApplyFinalMovements()
