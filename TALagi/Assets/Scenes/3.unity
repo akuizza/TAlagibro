@@ -259,6 +259,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pintu1 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8526250679615854148, guid: 8392266a47ea3d141809710346125389, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8526250679615854148, guid: 8392266a47ea3d141809710346125389, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 9014099227795508478, guid: 8392266a47ea3d141809710346125389, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -3080,6 +3088,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: R4_Genteng
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8c0d27c623600814cab6254e99896d90, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8c0d27c623600814cab6254e99896d90, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c0d27c623600814cab6254e99896d90, type: 3}
 --- !u!1001 &349101735
@@ -5261,7 +5277,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 547787337}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Gubuk Spawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5891,6 +5907,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 03b251a4b973bed46bb83484dc43d3d1, type: 3}
       propertyPath: m_Name
       value: R4_Kanan
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 03b251a4b973bed46bb83484dc43d3d1, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 03b251a4b973bed46bb83484dc43d3d1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03b251a4b973bed46bb83484dc43d3d1, type: 3}
@@ -7402,6 +7426,14 @@ PrefabInstance:
     - target: {fileID: 8526250679615854148, guid: 8392266a47ea3d141809710346125389, type: 3}
       propertyPath: m_Name
       value: Pintu1 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8526250679615854148, guid: 8392266a47ea3d141809710346125389, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8526250679615854148, guid: 8392266a47ea3d141809710346125389, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 9014099227795508478, guid: 8392266a47ea3d141809710346125389, type: 3}
       propertyPath: m_RootOrder
@@ -12551,7 +12583,13 @@ MonoBehaviour:
   patrolSpeed: 3
   chaseSpeed: 4
   maxTimeChasing: 10
+  maxTimeWaiting: 3
   radiusHit: 1
+  viewRadius: 10
+  viewAngle: 150
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 64
   targetMask:
     serializedVersion: 2
     m_Bits: 8
@@ -16968,6 +17006,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: R4_Kiri
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6e16ed3f39687a74d822be50ac251fbd, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6e16ed3f39687a74d822be50ac251fbd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e16ed3f39687a74d822be50ac251fbd, type: 3}
 --- !u!1 &1496415882 stripped
@@ -17061,6 +17107,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 48e6f1af1ebad5846bc9ee8e4b7932c2, type: 3}
       propertyPath: m_Name
       value: R4_Depan
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 48e6f1af1ebad5846bc9ee8e4b7932c2, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 48e6f1af1ebad5846bc9ee8e4b7932c2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48e6f1af1ebad5846bc9ee8e4b7932c2, type: 3}
@@ -18801,7 +18855,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4246093254173124232, guid: cd35195d499f36e4c96d575d7cddbe30, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 288.2
+      value: 281.8
       objectReference: {fileID: 0}
     - target: {fileID: 4246093254173124232, guid: cd35195d499f36e4c96d575d7cddbe30, type: 3}
       propertyPath: m_LocalPosition.y
@@ -18809,7 +18863,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4246093254173124232, guid: cd35195d499f36e4c96d575d7cddbe30, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 149.4
+      value: 126.5
       objectReference: {fileID: 0}
     - target: {fileID: 4246093254173124232, guid: cd35195d499f36e4c96d575d7cddbe30, type: 3}
       propertyPath: m_LocalRotation.w
@@ -19844,6 +19898,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: R4_Belakang
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2f579c10f800e054a8e4f3962ec03ce3, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2f579c10f800e054a8e4f3962ec03ce3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f579c10f800e054a8e4f3962ec03ce3, type: 3}
 --- !u!4 &1768418745 stripped
@@ -20571,6 +20633,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d53617261deeecd4ebb9bba073ad0bb4, type: 3}
+--- !u!1 &1836701927 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8c0d27c623600814cab6254e99896d90, type: 3}
+  m_PrefabInstance: {fileID: 332420608}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1836701930
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836701927}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2086760457286487916, guid: 8c0d27c623600814cab6254e99896d90, type: 3}
 --- !u!4 &1837429642 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5927294783578221877, guid: a604410bb825a5546af03543e25e4045, type: 3}
