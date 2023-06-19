@@ -16,7 +16,8 @@ public class AI : MonoBehaviour
     [Header("Steering")]
     public float patrolSpeed;
     public float chaseSpeed;
-    public float maxTimeChasing; 
+    public float maxTimeChasing;
+    public float maxTimeWaiting;
     public float radiusHit;
     public LayerMask targetMask;
 
@@ -27,7 +28,7 @@ public class AI : MonoBehaviour
 
     Vector3 destination;
     int index_patrolpoint;
-    float currentTimeChasing;
+    float currentTimeChasing, currentTimeWaiting;
 
     // Start is called before the first frame update
     void Start()
@@ -51,7 +52,22 @@ public class AI : MonoBehaviour
                 Chasing();
                 break;
             case MoveMode.wait:
+                Waiting();
                 break;
+        }
+    }
+
+    void Waiting()
+    {
+        agent.destination = transform.position;
+
+        if(currentTimeWaiting > maxTimeWaiting)
+        {
+            moveMode = MoveMode.patrol;
+        }
+        else
+        {
+            currentTimeWaiting += Time.deltaTime;
         }
     }
 
