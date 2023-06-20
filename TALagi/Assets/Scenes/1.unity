@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.22485095, g: 0.2513121, b: 0.3221126, a: 1}
+  m_IndirectSpecularColor: {r: 0.040745974, g: 0.050543424, b: 0.08338426, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -20471,6 +20471,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mobil
       objectReference: {fileID: 0}
+    - target: {fileID: 7627576356333753110, guid: 3665434cc6866264bbc4431cf2de9031, type: 3}
+      propertyPath: m_Intensity
+      value: 3.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627576357646114592, guid: 3665434cc6866264bbc4431cf2de9031, type: 3}
+      propertyPath: m_Intensity
+      value: 3.4
+      objectReference: {fileID: 0}
     - target: {fileID: 7948889856701583465, guid: 3665434cc6866264bbc4431cf2de9031, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -20485,7 +20493,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7948889856701583465, guid: 3665434cc6866264bbc4431cf2de9031, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.5
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 7948889856701583465, guid: 3665434cc6866264bbc4431cf2de9031, type: 3}
       propertyPath: m_LocalRotation.w
