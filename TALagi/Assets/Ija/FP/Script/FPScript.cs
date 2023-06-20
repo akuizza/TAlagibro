@@ -12,6 +12,7 @@ public class FPScript : MonoBehaviour
     [SerializeField] private bool canSprint = true;
     [SerializeField] private bool canJump = true;
     [SerializeField] private bool useFootsSteps = true;
+    [SerializeField] private bool canUseHeadBob = true;
 
     [Header("Controls")]
     [SerializeField] private KeyCode sprintKey = KeyCode.LeftShift;
@@ -31,6 +32,14 @@ public class FPScript : MonoBehaviour
     [Header("Jumping Parameters")]
     [SerializeField] private float jumpForce = 8.0f;
     [SerializeField] private float gravity = 30.0f;
+
+    [Header("Headbob Parameters")]
+    [SerializeField] private float walkBobSpeed = 14f;
+    [SerializeField] private float walkBobAmount = 0.5f;
+    [SerializeField] private float sprintBobSpeed = 18f;
+    [SerializeField] private float sprintBobAmount = 1f;
+    private float defaultYPos = 0;
+    private float timer;
 
     [Header("Footstep Parameters")]
     [SerializeField] private float baseStepSpeed = 0.5f;
@@ -54,6 +63,7 @@ public class FPScript : MonoBehaviour
     {
         playerCamera = GetComponentInChildren<Camera>();
         characterController = GetComponent<CharacterController>();
+        defaultYPos = playerCamera.transform.localPosition.y;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
@@ -67,6 +77,10 @@ public class FPScript : MonoBehaviour
 
             if (canJump)
                 HandleJump();
+
+            if (canUseHeadBob)
+                HandleHeadbob();
+
             if (useFootsSteps)
                 Handle_Footsteps();
 
@@ -97,6 +111,19 @@ public class FPScript : MonoBehaviour
     {
         if (ShouldJump)
             moveDirection.y = jumpForce;
+    }
+
+    private void HandleHeadbob()
+    {
+        if (!characterController.isGrounded) return;
+
+        if (Mathf.Abs(moveDirection.x) > 0.1f || Mathf.Abs(moveDirection.z) > 0.1f)
+        {
+            timer += Time.deltaTime * (IsSprinting ? sprintBobSpeed : walkBobSpeed);
+            playerCamera.transform.localPosition = new Vector3(playerCamera.transform.localPosition.x,
+                defaultYPos = Mathf.Sin(timer) * (IsSprinting ? sprintBobAmount : walkBobAmount),
+                playerCamera.transform.localPosition.z);
+        }
     }
 
     private void Handle_Footsteps()

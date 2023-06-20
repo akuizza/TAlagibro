@@ -12799,7 +12799,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcba85397970e144889686b1da9a3abe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveMode: 1
+  moveMode: 0
+  sceneName: KetangkepKunti
   patrolSpeed: 3
   chaseSpeed: 4
   maxTimeChasing: 10
@@ -19036,7 +19037,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4246093254173124232, guid: cd35195d499f36e4c96d575d7cddbe30, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4246093254173124232, guid: cd35195d499f36e4c96d575d7cddbe30, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19081,6 +19082,14 @@ PrefabInstance:
     - target: {fileID: 4246093254173124233, guid: cd35195d499f36e4c96d575d7cddbe30, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246093254173124234, guid: cd35195d499f36e4c96d575d7cddbe30, type: 3}
+      propertyPath: walkBobAmount
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246093254173124234, guid: cd35195d499f36e4c96d575d7cddbe30, type: 3}
+      propertyPath: sprintBobAmount
+      value: 0.05
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd35195d499f36e4c96d575d7cddbe30, type: 3}

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.AI;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public enum MoveMode
 {
@@ -12,6 +13,7 @@ public enum MoveMode
 public class AI : MonoBehaviour
 {
     public MoveMode moveMode;
+    public string sceneName;
 
     [Header("Steering")]
     public float patrolSpeed;
@@ -140,8 +142,11 @@ public class AI : MonoBehaviour
 
         if (col.Length > 0 && !isHit)
         {
-            Debug.Log("Permainan berakhir");
+         // Debug.Log("Permainan berakhir");
             isHit = true;
+            SceneManager.LoadScene(sceneName);
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
         }
 
         if(currentTimeChasing > maxTimeChasing)
