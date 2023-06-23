@@ -150,6 +150,7 @@ MonoBehaviour:
   canSprint: 1
   canJump: 1
   useFootsSteps: 1
+  canUseHeadBob: 1
   sprintKey: 304
   jumpKey: 32
   walkSpeed: 3
@@ -160,6 +161,10 @@ MonoBehaviour:
   lowerLookLimit: 80
   jumpForce: 8
   gravity: 15
+  walkBobSpeed: 14
+  walkBobAmount: 0.03
+  sprintBobSpeed: 18
+  sprintBobAmount: 0.05
   baseStepSpeed: 0.5
   sprintStepMultipler: 0.6
   footstepAudioSource: {fileID: 4246093254173124233}
