@@ -15,11 +15,11 @@ D:/Kuli_ah/BUAT TA/GitHub/TAlagi/TAlagibro/TALagi
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50685
+52036
 Successfully changed project path to: D:/Kuli_ah/BUAT TA/GitHub/TAlagi/TAlagibro/TALagi
 D:/Kuli_ah/BUAT TA/GitHub/TAlagi/TAlagibro/TALagi
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 99.87 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 109.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path D:/Unity Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,92 @@ Initialize mono
 Mono path[0] = 'D:/Unity Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002657 seconds.
+Registered in 0.001437 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 95.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 86.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.509 seconds
+- Completed reload, in  0.859 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1510ms)
-		BeginReloadAssembly (169ms)
+	ReloadAssembly (859ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1122ms)
-			LoadAssemblies (169ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (681ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (517ms)
+			SetupTypeCache (213ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (352ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (279ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (96ms)
-				BeforeProcessingInitializeOnLoad (34ms)
-				ProcessInitializeOnLoadAttributes (165ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (24ms)
+				ProcessInitializeOnLoadAttributes (116ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004660 seconds.
+Registered in 0.002900 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.590 seconds
+- Completed reload, in  1.434 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1591ms)
-		BeginReloadAssembly (307ms)
+	ReloadAssembly (1435ms)
+		BeginReloadAssembly (201ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1196ms)
-			LoadAssemblies (129ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1148ms)
+			LoadAssemblies (122ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (424ms)
+			SetupTypeCache (416ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (447ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (416ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (125ms)
-				ProcessInitializeOnLoadAttributes (298ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (283ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1618 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 168.4 MB.
-System memory in use after: 168.2 MB.
+System memory in use after: 168.3 MB.
 
 Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2082.
-Total: 4.878800 ms (FindLiveObjects: 0.237200 ms CreateObjectMapping: 0.074800 ms MarkObjects: 4.281200 ms  DeleteObjects: 0.283500 ms)
+Total: 5.260900 ms (FindLiveObjects: 0.282400 ms CreateObjectMapping: 0.112900 ms MarkObjects: 4.574800 ms  DeleteObjects: 0.288000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,81 +135,81 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu 1.8/Pintu1_8.controller
-  artifactKey: Guid(28b519c14dc2c9c4787061f0da450e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu 1.8/Pintu1_8.controller using Guid(28b519c14dc2c9c4787061f0da450e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c083f427e7ae728602edeb3b16ad64') in 0.068466 seconds 
-  Import took 0.074190 seconds .
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu1.7/Pintu1_7.controller
+  artifactKey: Guid(35e2eafacbfc9ba478ded07812a3036a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu1.7/Pintu1_7.controller using Guid(35e2eafacbfc9ba478ded07812a3036a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ce2f5cd6ca352809864f378e8b975e') in 0.059288 seconds 
+  Import took 0.065514 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.249776 seconds.
-  path: Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu 1.8/IdleP1.8.anim
-  artifactKey: Guid(5d5b655958dc93b42a6c39b8038e6be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu 1.8/IdleP1.8.anim using Guid(5d5b655958dc93b42a6c39b8038e6be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75da3d0b74e323e0dbd0506cb075b6be') in 0.022587 seconds 
-  Import took 0.029682 seconds .
+  Time since last request: 7.478371 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu1.7/IdleP1.7.anim
+  artifactKey: Guid(e5755853a4cf6184aa7a5eee43bd0f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu1.7/IdleP1.7.anim using Guid(e5755853a4cf6184aa7a5eee43bd0f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0872e030851f677411aea765ab725f6e') in 0.019847 seconds 
+  Import took 0.026586 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.611024 seconds.
-  path: Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu 1.8/OpenP1.8.anim
-  artifactKey: Guid(de970debc6be75243bfc73458bdc4914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu 1.8/OpenP1.8.anim using Guid(de970debc6be75243bfc73458bdc4914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc92697c5d75215088ad26ccd4f7980') in 0.028696 seconds 
-  Import took 0.042733 seconds .
+  Time since last request: 2.623203 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu1.7/OpenP1.7.anim
+  artifactKey: Guid(19e58974f2d35e84d87c89e0f1ac0dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu1.7/OpenP1.7.anim using Guid(19e58974f2d35e84d87c89e0f1ac0dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b86aaa1a6db514120e9a0ef99d6dd5') in 0.011810 seconds 
+  Import took 0.018587 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.316369 seconds.
-  path: Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu 1.8/CloseP1.8.anim
-  artifactKey: Guid(c2183702c21b89a479a9a83d260d3b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu 1.8/CloseP1.8.anim using Guid(c2183702c21b89a479a9a83d260d3b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad3aecddc6ce0d5e0a2812770677a5b') in 0.032386 seconds 
-  Import took 0.041020 seconds .
+  Time since last request: 2.193725 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu1.7/CloseP1.7.anim
+  artifactKey: Guid(eeee79fcfb82562418d0ae046f970a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu1.7/CloseP1.7.anim using Guid(eeee79fcfb82562418d0ae046f970a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e4486a6b5f30ca9db3e7dcbb9dbac6') in 0.016778 seconds 
+  Import took 0.022730 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003665 seconds.
+Registered in 0.003120 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.574 seconds
+- Completed reload, in  1.273 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1575ms)
-		BeginReloadAssembly (199ms)
+	ReloadAssembly (1274ms)
+		BeginReloadAssembly (170ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (1222ms)
-			LoadAssemblies (172ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1024ms)
+			LoadAssemblies (117ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (452ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (420ms)
+			SetupTypeCache (364ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (371ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (286ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1588 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 165.8 MB.
 System memory in use after: 165.7 MB.
 
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2085.
-Total: 5.202300 ms (FindLiveObjects: 0.442700 ms CreateObjectMapping: 0.157100 ms MarkObjects: 4.331400 ms  DeleteObjects: 0.268200 ms)
+Total: 4.560400 ms (FindLiveObjects: 0.261800 ms CreateObjectMapping: 0.109100 ms MarkObjects: 3.907200 ms  DeleteObjects: 0.279500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -224,82 +224,610 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 7768.265021 seconds.
-  path: Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu1.9/Pintu1_9.controller
-  artifactKey: Guid(e2ef59c4a6debdd498c268d463a5fa9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu1.9/Pintu1_9.controller using Guid(e2ef59c4a6debdd498c268d463a5fa9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd6fa3d1e6b0d1fc3978b731304355e') in 0.388908 seconds 
-  Import took 0.541649 seconds .
+  Time since last request: 299.040466 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu1.6.anim
+  artifactKey: Guid(e3aba72310441314aa4378f73ceba7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu1.6.anim using Guid(e3aba72310441314aa4378f73ceba7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285b8e4b753ee5019258c5677d45a61a') in 0.050298 seconds 
+  Import took 0.057106 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.948158 seconds.
-  path: Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu1.9/IdleP1.9.anim
-  artifactKey: Guid(85fa5446dbbac534ead1d1323c485623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu1.9/IdleP1.9.anim using Guid(85fa5446dbbac534ead1d1323c485623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953d04550795ab73fc1aa7dae5588b3f') in 0.011799 seconds 
-  Import took 0.015052 seconds .
+  Time since last request: 112.017148 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu1.6/Pintu1_6.controller
+  artifactKey: Guid(c35fb9143a3ba2046b472f66a4f67ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu1.6/Pintu1_6.controller using Guid(c35fb9143a3ba2046b472f66a4f67ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0624143ce49ef1acbf5366b4decd7b59') in 0.015652 seconds 
+  Import took 0.023296 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.115351 seconds.
-  path: Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu1.9/OpenP1.9.anim
-  artifactKey: Guid(67367ef37c838db40b76a3584de580e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu1.9/OpenP1.9.anim using Guid(67367ef37c838db40b76a3584de580e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3019e9d5c660c24c53c2f9e50006890b') in 0.010919 seconds 
-  Import took 0.015792 seconds .
+  Time since last request: 10.063006 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu1.6/IdleP1.6.anim
+  artifactKey: Guid(328e72284eea555478166e15e192a556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu1.6/IdleP1.6.anim using Guid(328e72284eea555478166e15e192a556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f97821ac01eacadd188ab75b161394') in 0.016528 seconds 
+  Import took 0.021694 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.017052 seconds.
-  path: Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu1.9/CloseP1.9.anim
-  artifactKey: Guid(b8ff06c92128cec4fadcd5234343aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu1.9/CloseP1.9.anim using Guid(b8ff06c92128cec4fadcd5234343aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858122387dcbfaa93949df12e896e156') in 0.010769 seconds 
-  Import took 0.014514 seconds .
+  Time since last request: 2.229054 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu1.6/OpenP1.6.anim
+  artifactKey: Guid(1e513b6d34594ae459169f48cfecd88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu1.6/OpenP1.6.anim using Guid(1e513b6d34594ae459169f48cfecd88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c63f5ee738d389d863de8dbf23ccbe') in 0.018716 seconds 
+  Import took 0.024523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.314983 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu1.6/CloseP1.6.anim
+  artifactKey: Guid(589605330e6345448a396e045c1c8425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu1.6/CloseP1.6.anim using Guid(589605330e6345448a396e045c1c8425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1c0d9546606c84769d04ba0d83755f') in 0.016081 seconds 
+  Import took 0.021208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 343.691493 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu 1.5/Pintu1_5.controller
+  artifactKey: Guid(a9b2e741b4167dd4fa45017ecc5e321b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu 1.5/Pintu1_5.controller using Guid(a9b2e741b4167dd4fa45017ecc5e321b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d0555d4649a5b8ae3b1662b168b775') in 0.017351 seconds 
+  Import took 0.024673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.485268 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu 1.5/IdleP1.5.anim
+  artifactKey: Guid(38da4eb236bdb7f45b640ad7536483a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu 1.5/IdleP1.5.anim using Guid(38da4eb236bdb7f45b640ad7536483a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d9b6952a31eaf73884ab752e9e018c') in 0.018743 seconds 
+  Import took 0.024563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.213761 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu 1.5/OpenP1.5.anim
+  artifactKey: Guid(1f9cbd86e9b6f44448d1be7920dfe557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu 1.5/OpenP1.5.anim using Guid(1f9cbd86e9b6f44448d1be7920dfe557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6351dd7986f52aa3f7a4556f393b5053') in 0.016650 seconds 
+  Import took 0.021243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.694443 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu 1.5/CloseP1.5.anim
+  artifactKey: Guid(f86384d579f18b244837ec4dd5111c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 5/Pintu 1.5/CloseP1.5.anim using Guid(f86384d579f18b244837ec4dd5111c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75fd80d0e887a9c2184bd64c7174f9e9') in 0.015666 seconds 
+  Import took 0.021285 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001874 seconds.
+Registered in 0.003570 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.932 seconds
+- Completed reload, in  1.273 seconds
 Domain Reload Profiling:
-	ReloadAssembly (933ms)
+	ReloadAssembly (1274ms)
 		BeginReloadAssembly (155ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (70ms)
-		EndReloadAssembly (725ms)
-			LoadAssemblies (103ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1039ms)
+			LoadAssemblies (117ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (263ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (247ms)
+			SetupTypeCache (367ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (376ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (167ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1588 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 165.8 MB.
 System memory in use after: 165.7 MB.
 
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2088.
-Total: 3.734600 ms (FindLiveObjects: 0.236200 ms CreateObjectMapping: 0.087300 ms MarkObjects: 3.181200 ms  DeleteObjects: 0.227500 ms)
+Total: 4.643400 ms (FindLiveObjects: 0.262000 ms CreateObjectMapping: 0.110100 ms MarkObjects: 3.969900 ms  DeleteObjects: 0.298900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 541.370062 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 4/Pintu1.10/Pintu1_10.controller
+  artifactKey: Guid(c1a8f4c1d789bd5428f4ea05648efed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 4/Pintu1.10/Pintu1_10.controller using Guid(c1a8f4c1d789bd5428f4ea05648efed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e0d086aa275cb012a05d5af772c0d0') in 0.051492 seconds 
+  Import took 0.061423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.419318 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 4/Pintu1.10/IdleP1.10.anim
+  artifactKey: Guid(07d49ff226ddc2245a681540cf52219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 4/Pintu1.10/IdleP1.10.anim using Guid(07d49ff226ddc2245a681540cf52219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82220750369df17c556517c4443a04ba') in 0.020656 seconds 
+  Import took 0.027543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.371982 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 4/Pintu1.10/OpenP1.10.anim
+  artifactKey: Guid(fffc7fe4dac16bf4b919b4130e7bf25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 4/Pintu1.10/OpenP1.10.anim using Guid(fffc7fe4dac16bf4b919b4130e7bf25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9557cdf9a6c452e7807414cbeef1ee5b') in 0.017583 seconds 
+  Import took 0.023801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.006433 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 4/Pintu1.10/CloseP.10.anim
+  artifactKey: Guid(bb81a70cd5215a7479670804707fba82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 4/Pintu1.10/CloseP.10.anim using Guid(bb81a70cd5215a7479670804707fba82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4a25b82c44eefed97f13b1e77fb5cf') in 0.018197 seconds 
+  Import took 0.023821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 376.464388 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 4/Pintu 1.9/Pintu1_9.controller
+  artifactKey: Guid(2c3292ac5e7249c45bde7b5dd7951d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 4/Pintu 1.9/Pintu1_9.controller using Guid(2c3292ac5e7249c45bde7b5dd7951d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38671dfb4e50ad3d4010c4738067c0d') in 0.016258 seconds 
+  Import took 0.025330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.152982 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 4/Pintu 1.9/IdleP1.9.anim
+  artifactKey: Guid(43e3a60da8265d644bfd814797e3a3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 4/Pintu 1.9/IdleP1.9.anim using Guid(43e3a60da8265d644bfd814797e3a3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8249c2d2acfdf9b26657780cb60db8') in 0.021512 seconds 
+  Import took 0.027578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.462304 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 4/Pintu 1.9/OpenP1.9.anim
+  artifactKey: Guid(ba9500bf5c58c9540b5d868b0414a371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 4/Pintu 1.9/OpenP1.9.anim using Guid(ba9500bf5c58c9540b5d868b0414a371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77515105dff54d9a6e4c6a62ec00233') in 0.018093 seconds 
+  Import took 0.024114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.119764 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 4/Pintu 1.9/CloseP1.9.anim
+  artifactKey: Guid(0a25ac4fed8d3d14aa1b41ee97e68f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 4/Pintu 1.9/CloseP1.9.anim using Guid(0a25ac4fed8d3d14aa1b41ee97e68f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31211a16b60bbcc6e019f5c116ef4fe5') in 0.016572 seconds 
+  Import took 0.023900 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003597 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.256 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1256ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1048ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (375ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (378ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (260ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1588 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.9 MB.
+System memory in use after: 165.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2091.
+Total: 4.598300 ms (FindLiveObjects: 0.261800 ms CreateObjectMapping: 0.097600 ms MarkObjects: 3.944900 ms  DeleteObjects: 0.291600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 512.257560 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.1/Pintu1_1.controller
+  artifactKey: Guid(3574d17c88374144c9a1b9559bae7a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.1/Pintu1_1.controller using Guid(3574d17c88374144c9a1b9559bae7a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6436def8bef44a39009288983ab94c68') in 0.054765 seconds 
+  Import took 0.062589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.695454 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.1/IdleP1.1.anim
+  artifactKey: Guid(dedc61408937b704caff199fec8eb574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.1/IdleP1.1.anim using Guid(dedc61408937b704caff199fec8eb574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c31f6945bc30f34768978351f52883') in 0.022161 seconds 
+  Import took 0.028466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.515499 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.1/OpenP1.1.anim
+  artifactKey: Guid(89154dc47121076439f0107b364b660b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.1/OpenP1.1.anim using Guid(89154dc47121076439f0107b364b660b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8f3f50bb26d41507c4c51d6a4021c0') in 0.016782 seconds 
+  Import took 0.023857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.455538 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.1/CloseP1.1.anim
+  artifactKey: Guid(f10bd692959380e4ea26fc8f0266b304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.1/CloseP1.1.anim using Guid(f10bd692959380e4ea26fc8f0266b304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e3029c95a31a3a71941a5f784ed276') in 0.013953 seconds 
+  Import took 0.019087 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003606 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.273 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1274ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1042ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (361ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (383ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1588 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.9 MB.
+System memory in use after: 165.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2094.
+Total: 5.234700 ms (FindLiveObjects: 0.208000 ms CreateObjectMapping: 0.065100 ms MarkObjects: 4.657300 ms  DeleteObjects: 0.302600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 345.136713 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.2/Pintu1_2.controller
+  artifactKey: Guid(a065a5c30868b4b41bb0566ec633097f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.2/Pintu1_2.controller using Guid(a065a5c30868b4b41bb0566ec633097f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417253665354548142a2aa67b2b3e0d1') in 0.046429 seconds 
+  Import took 0.054809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.680438 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.2/IdleP1.2.anim
+  artifactKey: Guid(f7813fa684d232247bba8debb5b1e3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.2/IdleP1.2.anim using Guid(f7813fa684d232247bba8debb5b1e3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7508cbf69d604577b0230020862f0c6d') in 0.016658 seconds 
+  Import took 0.022138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.287880 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.2/OpenP1.2.anim
+  artifactKey: Guid(a0f64ab8e03bba3449e4235e0ea3f0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.2/OpenP1.2.anim using Guid(a0f64ab8e03bba3449e4235e0ea3f0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d2c9c71ecbf89b3500f12447201bf1') in 0.022124 seconds 
+  Import took 0.028180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.480944 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.2/CloseP1.2.anim
+  artifactKey: Guid(91825ce459de14a4a8cbaa63fb7cdffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.2/CloseP1.2.anim using Guid(91825ce459de14a4a8cbaa63fb7cdffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0cb10843a6e8d6961112be326e96ec7') in 0.015128 seconds 
+  Import took 0.019754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 339.562016 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.3/Pintu1_3.controller
+  artifactKey: Guid(cbcf84ef189eb2f4491a7dddf6d04a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.3/Pintu1_3.controller using Guid(cbcf84ef189eb2f4491a7dddf6d04a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab58a8f63cef1286ad2c119b000dbec0') in 0.016172 seconds 
+  Import took 0.024107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.052095 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.3/IdleP1.3.anim
+  artifactKey: Guid(b5eff0e77f157064585ca2b21db7e97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.3/IdleP1.3.anim using Guid(b5eff0e77f157064585ca2b21db7e97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790918fc4344b94067c642c87d96541b') in 0.017143 seconds 
+  Import took 0.024090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.306226 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.3/OpenP1.3.anim
+  artifactKey: Guid(d617787b75aad7f409ccbae16066409f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.3/OpenP1.3.anim using Guid(d617787b75aad7f409ccbae16066409f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a7177c67290cbbd3fb46b313a3fe77') in 0.017838 seconds 
+  Import took 0.022900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.863194 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.3/CloseP1.3.anim
+  artifactKey: Guid(34f75105c7c1d224daa761b6f376d8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.3/CloseP1.3.anim using Guid(34f75105c7c1d224daa761b6f376d8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd558dc1c0d6208ef5823b15b56db65') in 0.018727 seconds 
+  Import took 0.025227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 295.899495 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.4/Pintu1_4.controller
+  artifactKey: Guid(2e4e3ab32ffccce4fa065c6d753c0de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.4/Pintu1_4.controller using Guid(2e4e3ab32ffccce4fa065c6d753c0de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b919591128930270c9b4b4508dc9af8') in 0.016304 seconds 
+  Import took 0.023891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.523533 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.4/IdleP1.4.anim
+  artifactKey: Guid(6cd0fc521714aad4da1a844679f3e82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.4/IdleP1.4.anim using Guid(6cd0fc521714aad4da1a844679f3e82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65567fd8e60cb74879b8f97c1e9e9d85') in 0.016956 seconds 
+  Import took 0.023418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.100225 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.4/OpenP1.4.anim
+  artifactKey: Guid(932b0926fafce2340b94e7c5a1ffb556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.4/OpenP1.4.anim using Guid(932b0926fafce2340b94e7c5a1ffb556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f5539492fa99bafaf6836dd42ee5e3') in 0.012548 seconds 
+  Import took 0.017027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.847887 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.4/CloseP1.4.anim
+  artifactKey: Guid(7a19da7845c03c54cb1417552de6721f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Rumah 6/Pintu 1.4/CloseP1.4.anim using Guid(7a19da7845c03c54cb1417552de6721f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787e0c11123af2a76458dd68e6b2e700') in 0.013864 seconds 
+  Import took 0.017993 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003598 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.262 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1262ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1046ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (375ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (373ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (254ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1588 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.9 MB.
+System memory in use after: 165.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2097.
+Total: 5.002600 ms (FindLiveObjects: 0.201900 ms CreateObjectMapping: 0.071200 ms MarkObjects: 4.425000 ms  DeleteObjects: 0.302600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 722.465406 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Gubuk Spawn/Pintu1.9/Pintu1_9.controller
+  artifactKey: Guid(4ec135d3319e7694f90b511e52c073dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Gubuk Spawn/Pintu1.9/Pintu1_9.controller using Guid(4ec135d3319e7694f90b511e52c073dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c32b40373ba31f6c7e745ecd591abe2') in 0.036308 seconds 
+  Import took 0.045990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.356054 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Gubuk Spawn/Pintu1.9/IdleP1.9GS.anim
+  artifactKey: Guid(8c8b477c9aa371944b90a34370c3f0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Gubuk Spawn/Pintu1.9/IdleP1.9GS.anim using Guid(8c8b477c9aa371944b90a34370c3f0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623e136d818e2c537946233b0e0afe7a') in 0.016554 seconds 
+  Import took 0.024371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.184259 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Gubuk Spawn/Pintu1.9/OpenP1.9GS.anim
+  artifactKey: Guid(817ad5c42d24c454cbe6382390450a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Gubuk Spawn/Pintu1.9/OpenP1.9GS.anim using Guid(817ad5c42d24c454cbe6382390450a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25780aa659217ea5ea9e00513f40eced') in 0.017852 seconds 
+  Import took 0.023323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.932761 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Gubuk Spawn/Pintu1.9/CloseP1.9GS.anim
+  artifactKey: Guid(d2bd3bc6c45f6e54b9d85d08c4d8779f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Gubuk Spawn/Pintu1.9/CloseP1.9GS.anim using Guid(d2bd3bc6c45f6e54b9d85d08c4d8779f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980d5ffaac8a9d44311c963085ae2c59') in 0.016809 seconds 
+  Import took 0.022290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 257.560579 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Gubuk Spawn/Pintu 1.10/Pintu1_10.controller
+  artifactKey: Guid(6624f6b7635ce784c8b4150b737654df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Gubuk Spawn/Pintu 1.10/Pintu1_10.controller using Guid(6624f6b7635ce784c8b4150b737654df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64da9e8653243f57e77df8e50a96e66a') in 0.004200 seconds 
+  Import took 0.009522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.605459 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Gubuk Spawn/Pintu 1.10/IdleP1.10GS.anim
+  artifactKey: Guid(ae6a3268e8630fa4fbbe99950242ab49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Gubuk Spawn/Pintu 1.10/IdleP1.10GS.anim using Guid(ae6a3268e8630fa4fbbe99950242ab49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82d849a85850dce9db84b8dcfc4a560') in 0.018306 seconds 
+  Import took 0.023425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.334300 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Gubuk Spawn/Pintu 1.10/OpenP1.10GS.anim
+  artifactKey: Guid(60a7b16ad829e8849b5e90ead6a068a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Gubuk Spawn/Pintu 1.10/OpenP1.10GS.anim using Guid(60a7b16ad829e8849b5e90ead6a068a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b273329da7c6413f41ef0d29f002044') in 0.012279 seconds 
+  Import took 0.016979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.802323 seconds.
+  path: Assets/Ija/Animation/Pintu Rumah/Gubuk Spawn/Pintu 1.10/CloseP1.10GS.anim
+  artifactKey: Guid(b1c8fa8baef984e4bb37ada56f9e0ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ija/Animation/Pintu Rumah/Gubuk Spawn/Pintu 1.10/CloseP1.10GS.anim using Guid(b1c8fa8baef984e4bb37ada56f9e0ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb58f8ea453590fafa87c7e53db9fde') in 0.011820 seconds 
+  Import took 0.015953 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002861 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.270 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1271ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1060ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (362ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (393ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1588 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.9 MB.
+System memory in use after: 165.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2100.
+Total: 4.738800 ms (FindLiveObjects: 0.207600 ms CreateObjectMapping: 0.070400 ms MarkObjects: 4.140600 ms  DeleteObjects: 0.318100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
