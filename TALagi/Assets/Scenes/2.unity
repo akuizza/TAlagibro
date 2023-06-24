@@ -8498,6 +8498,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4246093254173124234, guid: cd35195d499f36e4c96d575d7cddbe30, type: 3}
+      propertyPath: sprintBobSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246093254173124234, guid: cd35195d499f36e4c96d575d7cddbe30, type: 3}
+      propertyPath: grassClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: cac5f295c4c43bf40aab418c9b541c84, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd35195d499f36e4c96d575d7cddbe30, type: 3}
 --- !u!4 &1774176945 stripped
