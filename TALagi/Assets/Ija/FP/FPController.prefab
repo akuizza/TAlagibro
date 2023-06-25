@@ -176,7 +176,13 @@ MonoBehaviour:
   - {fileID: 8300000, guid: eb923109d82cfc044b985523e30a13d4, type: 3}
   - {fileID: 8300000, guid: ddac2ff4f64375a45bab0aa8d8a20ed5, type: 3}
   grassClips:
-  - {fileID: 8300000, guid: d390110f0ad7fd542b9f2ffcd4e42cc9, type: 3}
+  - {fileID: 8300000, guid: 0609acde86b59a2458aaf135531f8756, type: 3}
+  - {fileID: 8300000, guid: fdfa07727ba18e146b0d737f16110ba5, type: 3}
+  - {fileID: 8300000, guid: e988fcf175fd1874db4f82c3b2d75db3, type: 3}
+  - {fileID: 8300000, guid: 98e005e2d5100484b88927d0803cb395, type: 3}
+  - {fileID: 8300000, guid: b3e9cdac26b78934197456d8199e30bc, type: 3}
+  - {fileID: 8300000, guid: ddc4973571f36404d95c23401b7d2f12, type: 3}
+  - {fileID: 8300000, guid: 8c9f76b14113ab640ab4b94535ad82e3, type: 3}
 --- !u!82 &4246093254173124233
 AudioSource:
   m_ObjectHideFlags: 0

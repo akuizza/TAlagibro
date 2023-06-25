@@ -54,5 +54,7 @@ public class ReadNote : MonoBehaviour
     {
         noteUI.SetActive(false);
         player.GetComponent<FPScript>().enabled = true;
+        Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.None;
     }
 }
