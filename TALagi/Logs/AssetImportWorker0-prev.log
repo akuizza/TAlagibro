@@ -1,111 +1,140 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7599 MB
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 8013 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-D:\Unity Editor\2020.3.25f1\Editor\Unity.exe
+C:\Program Files\Unity 2020.3.25f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Kuli_ah/BUAT TA/GitHub/TAlagi/TAlagibro/TALagi
+A:/Unity Project/Beneran Jadi ini mah/TAlagibro/TALagi
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53444
-Successfully changed project path to: D:/Kuli_ah/BUAT TA/GitHub/TAlagi/TAlagibro/TALagi
-D:/Kuli_ah/BUAT TA/GitHub/TAlagi/TAlagibro/TALagi
+58995
+Successfully changed project path to: A:/Unity Project/Beneran Jadi ini mah/TAlagibro/TALagi
+A:/Unity Project/Beneran Jadi ini mah/TAlagibro/TALagi
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 52.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 56.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
-[Subsystems] Discovering subsystems at path D:/Unity Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Kuli_ah/BUAT TA/GitHub/TAlagi/TAlagibro/TALagi/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path A:/Unity Project/Beneran Jadi ini mah/TAlagibro/TALagi/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Renderer: NVIDIA GeForce GTX 1650 with Max-Q Design (ID=0x1f9d)
     Vendor:   
     VRAM:     3962 MB
-    Driver:   31.0.15.1694
+    Driver:   30.0.15.1165
 Initialize mono
-Mono path[0] = 'D:/Unity Editor/2020.3.25f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
+Mono path[0] = 'C:/Program Files/Unity 2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/Unity Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000944 seconds.
+Register platform support module: C:/Program Files/Unity 2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003164 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 60.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 53.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.568 seconds
+- Completed reload, in  0.566 seconds
 Domain Reload Profiling:
-	ReloadAssembly (568ms)
-		BeginReloadAssembly (50ms)
+	ReloadAssembly (566ms)
+		BeginReloadAssembly (53ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (448ms)
-			LoadAssemblies (50ms)
+		EndReloadAssembly (447ms)
+			LoadAssemblies (51ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (135ms)
+			SetupTypeCache (146ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (192ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (173ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (60ms)
+				RefreshPlugins (53ms)
 				BeforeProcessingInitializeOnLoad (17ms)
-				ProcessInitializeOnLoadAttributes (82ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002094 seconds.
+Registered in 0.007485 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000011C20EF3040 doesn't match image A:\Unity Project\Beneran Jadi ini mah\TAlagibro\TALagi\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000011BFC8B3960 doesn't match image A:\Unity Project\Beneran Jadi ini mah\TAlagibro\TALagi\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000011C2255EF20 doesn't match image A:\Unity Project\Beneran Jadi ini mah\TAlagibro\TALagi\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000011BFC87F3F0 doesn't match image A:\Unity Project\Beneran Jadi ini mah\TAlagibro\TALagi\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000011BFCFAA030 doesn't match image A:\Unity Project\Beneran Jadi ini mah\TAlagibro\TALagi\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000011C21191230 doesn't match image A:\Unity Project\Beneran Jadi ini mah\TAlagibro\TALagi\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000011C21401020 doesn't match image A:\Unity Project\Beneran Jadi ini mah\TAlagibro\TALagi\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000011C229D4A30 doesn't match image A:\Unity Project\Beneran Jadi ini mah\TAlagibro\TALagi\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000011BFD289010 doesn't match image A:\Unity Project\Beneran Jadi ini mah\TAlagibro\TALagi\Library\ScriptAssemblies\RoadArchitect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000011BFD289010 doesn't match image A:\Unity Project\Beneran Jadi ini mah\TAlagibro\TALagi\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000011BFD2B1620 doesn't match image A:\Unity Project\Beneran Jadi ini mah\TAlagibro\TALagi\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000011C229D4A30 doesn't match image A:\Unity Project\Beneran Jadi ini mah\TAlagibro\TALagi\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000011BFCFAA030 doesn't match image A:\Unity Project\Beneran Jadi ini mah\TAlagibro\TALagi\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000011C21106020 doesn't match image A:\Unity Project\Beneran Jadi ini mah\TAlagibro\TALagi\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000011BFC8B3960 doesn't match image A:\Unity Project\Beneran Jadi ini mah\TAlagibro\TALagi\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000011C213AD020 doesn't match image A:\Unity Project\Beneran Jadi ini mah\TAlagibro\TALagi\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.907 seconds
+- Completed reload, in  0.946 seconds
 Domain Reload Profiling:
-	ReloadAssembly (908ms)
-		BeginReloadAssembly (131ms)
+	ReloadAssembly (946ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (725ms)
-			LoadAssemblies (77ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (757ms)
+			LoadAssemblies (111ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (259ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (270ms)
+			SetupTypeCache (250ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (277ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (185ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
@@ -113,14 +142,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1618 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.4 MB.
-System memory in use after: 168.2 MB.
+Unloading 1620 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.8 MB.
+System memory in use after: 168.7 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2082.
-Total: 3.872800 ms (FindLiveObjects: 0.245300 ms CreateObjectMapping: 0.052700 ms MarkObjects: 3.335900 ms  DeleteObjects: 0.237000 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2084.
+Total: 2.646400 ms (FindLiveObjects: 0.174400 ms CreateObjectMapping: 0.071900 ms MarkObjects: 2.176300 ms  DeleteObjects: 0.222600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -129,445 +158,494 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Ija/Script3
-  artifactKey: Guid(7ec24212ff6f3bc448b56c9b2400b979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ija/Script3 using Guid(7ec24212ff6f3bc448b56c9b2400b979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0445ed5dab63d73e478e9da00787b7') in 0.014337 seconds 
-  Import took 0.019025 seconds .
+  path: Assets/Classic Footstep SFX/Sliding_on_ground3.wav
+  artifactKey: Guid(f76b4e8c8e400f34dba1aeb2aaaddd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Sliding_on_ground3.wav using Guid(f76b4e8c8e400f34dba1aeb2aaaddd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b837763824f23cd9c516be18c41a69b') in 0.117250 seconds 
+  Import took 0.120832 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.330337 seconds.
-  path: Assets/Ija/Script3/ReadNote.cs
-  artifactKey: Guid(5c93799fb679e0a408df7450b860f589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ija/Script3/ReadNote.cs using Guid(5c93799fb679e0a408df7450b860f589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f873f8bbdc8444fde8d2d02f4ddfe94') in 0.035363 seconds 
-  Import took 0.039013 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001870 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.925 seconds
-Domain Reload Profiling:
-	ReloadAssembly (926ms)
-		BeginReloadAssembly (102ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (762ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (278ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (276ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (191ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1589 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 165.8 MB.
-System memory in use after: 165.7 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2086.
-Total: 3.378800 ms (FindLiveObjects: 0.226300 ms CreateObjectMapping: 0.083900 ms MarkObjects: 2.866900 ms  DeleteObjects: 0.199000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 110.905951 seconds.
-  path: Assets/Ija/FP/Script
-  artifactKey: Guid(d77d0e6ed0acdd048822942db8cd5a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ija/FP/Script using Guid(d77d0e6ed0acdd048822942db8cd5a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149117fe94aa39142a0efc4077c84d82') in 0.013036 seconds 
-  Import took 0.020529 seconds .
+  Time since last request: 0.000529 seconds.
+  path: Assets/Classic Footstep SFX/Sliding_on_ground0.wav
+  artifactKey: Guid(574d70118068c704e9d2654d8e5b386f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Sliding_on_ground0.wav using Guid(574d70118068c704e9d2654d8e5b386f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a095b8eb03b714fab92f0341386207') in 0.016412 seconds 
+  Import took 0.019486 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 73.914696 seconds.
-  path: Assets/Ija/FP/Script/FPScript.cs
-  artifactKey: Guid(c39e0f17e7e19b446b0fa9a99e5d2e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ija/FP/Script/FPScript.cs using Guid(c39e0f17e7e19b446b0fa9a99e5d2e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edbf6938afca7a073f3d6d344210494') in 0.009751 seconds 
-  Import took 0.012581 seconds .
+  Time since last request: 0.000226 seconds.
+  path: Assets/Classic Footstep SFX/Sliding_on_ground4.wav
+  artifactKey: Guid(dc12b3fea9c332f4a88d3b03843cf9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Sliding_on_ground4.wav using Guid(dc12b3fea9c332f4a88d3b03843cf9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3c2f22c319d7eeda5b4ee7f4e3f574') in 0.014648 seconds 
+  Import took 0.018620 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003039 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.053 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1056ms)
-		BeginReloadAssembly (197ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (18ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (91ms)
-		EndReloadAssembly (801ms)
-			LoadAssemblies (99ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (272ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (292ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (202ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1589 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 165.8 MB.
-System memory in use after: 165.7 MB.
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Classic Footstep SFX/Sliding_on_ground2.wav
+  artifactKey: Guid(4a2772599b7a7d64b98ba0c3ffbc6c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Sliding_on_ground2.wav using Guid(4a2772599b7a7d64b98ba0c3ffbc6c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe89e5514d1d3cdb624d14e034a039e9') in 0.018317 seconds 
+  Import took 0.022738 seconds .
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2089.
-Total: 3.415100 ms (FindLiveObjects: 0.342000 ms CreateObjectMapping: 0.056700 ms MarkObjects: 2.793300 ms  DeleteObjects: 0.217900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002272 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.841 seconds
-Domain Reload Profiling:
-	ReloadAssembly (842ms)
-		BeginReloadAssembly (106ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (683ms)
-			LoadAssemblies (80ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (241ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (248ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (171ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1589 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 165.9 MB.
-System memory in use after: 165.8 MB.
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Classic Footstep SFX/Sliding_on_ground5.wav
+  artifactKey: Guid(e353574aee6cacc4badcd5ac34123e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Sliding_on_ground5.wav using Guid(e353574aee6cacc4badcd5ac34123e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07bfbc72fa0f59a72ec6e8baae27f72f') in 0.016536 seconds 
+  Import took 0.022646 seconds .
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2092.
-Total: 3.264500 ms (FindLiveObjects: 0.250100 ms CreateObjectMapping: 0.088200 ms MarkObjects: 2.703100 ms  DeleteObjects: 0.220900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001802 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.920 seconds
-Domain Reload Profiling:
-	ReloadAssembly (921ms)
-		BeginReloadAssembly (109ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (752ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (274ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (268ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (179ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1589 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 165.9 MB.
-System memory in use after: 165.8 MB.
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Classic Footstep SFX/Sliding_on_ground1.wav
+  artifactKey: Guid(6233c85216cd1854e8d87991c7568256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Sliding_on_ground1.wav using Guid(6233c85216cd1854e8d87991c7568256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a22bb8d957f61d7ef470e401b8f86af') in 0.016630 seconds 
+  Import took 0.021177 seconds .
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2095.
-Total: 3.417100 ms (FindLiveObjects: 0.184600 ms CreateObjectMapping: 0.049600 ms MarkObjects: 2.938500 ms  DeleteObjects: 0.242300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003021 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.901 seconds
-Domain Reload Profiling:
-	ReloadAssembly (901ms)
-		BeginReloadAssembly (114ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (725ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (264ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (263ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (180ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1589 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 165.9 MB.
-System memory in use after: 165.8 MB.
+Received Import Request.
+  Time since last request: 9.819358 seconds.
+  path: Assets/Classic Footstep SFX/Floor/Floor_step0.wav
+  artifactKey: Guid(4d11813f5983ce047873c94858e6a6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Floor/Floor_step0.wav using Guid(4d11813f5983ce047873c94858e6a6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ae2828a0e0a836efbdf49610c49b51') in 0.013025 seconds 
+  Import took 0.016704 seconds .
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2098.
-Total: 3.424200 ms (FindLiveObjects: 0.182600 ms CreateObjectMapping: 0.042700 ms MarkObjects: 2.970300 ms  DeleteObjects: 0.227300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001956 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.884 seconds
-Domain Reload Profiling:
-	ReloadAssembly (885ms)
-		BeginReloadAssembly (105ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (725ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (267ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (259ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (176ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1589 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 165.9 MB.
-System memory in use after: 165.8 MB.
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Classic Footstep SFX/Floor/Floor_step14.wav
+  artifactKey: Guid(a6e2596331387124da8e81d37da68ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Floor/Floor_step14.wav using Guid(a6e2596331387124da8e81d37da68ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfec5ebe107e2fac774b9563b5cc889') in 0.017179 seconds 
+  Import took 0.022543 seconds .
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2101.
-Total: 3.400600 ms (FindLiveObjects: 0.213800 ms CreateObjectMapping: 0.046500 ms MarkObjects: 2.894200 ms  DeleteObjects: 0.243500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002106 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.887 seconds
-Domain Reload Profiling:
-	ReloadAssembly (888ms)
-		BeginReloadAssembly (99ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (734ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (243ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (267ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (186ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1589 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 165.9 MB.
-System memory in use after: 165.8 MB.
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Classic Footstep SFX/Floor/Floor_step1.wav
+  artifactKey: Guid(6154d2d90f91ac743a30a16a58f9fa32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Floor/Floor_step1.wav using Guid(6154d2d90f91ac743a30a16a58f9fa32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1718a6f3e8777feb49e8e6772ca500d') in 0.018973 seconds 
+  Import took 0.022680 seconds .
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2104.
-Total: 3.760000 ms (FindLiveObjects: 0.170900 ms CreateObjectMapping: 0.047800 ms MarkObjects: 3.314800 ms  DeleteObjects: 0.224900 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Classic Footstep SFX/Floor/Floor_step4.wav
+  artifactKey: Guid(825d688f717750646b0a05cb2db4ae16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Floor/Floor_step4.wav using Guid(825d688f717750646b0a05cb2db4ae16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e48dd704be82c3714fb7a853dba28f4') in 0.019251 seconds 
+  Import took 0.023063 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Classic Footstep SFX/Floor/Floor_step2.wav
+  artifactKey: Guid(4544cd1f9b0d00a498e3602ecfffcacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Floor/Floor_step2.wav using Guid(4544cd1f9b0d00a498e3602ecfffcacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544d465331830deb840946be924f8821') in 0.020780 seconds 
+  Import took 0.025469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Classic Footstep SFX/Floor/Floor_step7.wav
+  artifactKey: Guid(8ce4499bbd5a13e408937e979191ac28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Floor/Floor_step7.wav using Guid(8ce4499bbd5a13e408937e979191ac28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9531799aa83bc7ee5134b566c03b7e') in 0.018180 seconds 
+  Import took 0.021117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Classic Footstep SFX/Floor/Floor_step11.wav
+  artifactKey: Guid(ed6bb89be19053b4abdfe85ac7daf25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Floor/Floor_step11.wav using Guid(ed6bb89be19053b4abdfe85ac7daf25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe05f76d9ad6f005b585e92eae2b0f4a') in 0.018724 seconds 
+  Import took 0.022005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Classic Footstep SFX/Floor/Floor_step17.wav
+  artifactKey: Guid(02dc709a1e386674e8d05d3c04baa6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Floor/Floor_step17.wav using Guid(02dc709a1e386674e8d05d3c04baa6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7c46b572b79df41f3822b04b43ada2') in 0.016561 seconds 
+  Import took 0.020677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Classic Footstep SFX/Floor/Floor_step20.wav
+  artifactKey: Guid(b70d04f1f7e251b4f8629b271d71c623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Floor/Floor_step20.wav using Guid(b70d04f1f7e251b4f8629b271d71c623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fb99019aee81c67da66053306172c1') in 0.016642 seconds 
+  Import took 0.019744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Classic Footstep SFX/Floor/Floor_step13.wav
+  artifactKey: Guid(27ff539436f259348b7138c14d3885cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Floor/Floor_step13.wav using Guid(27ff539436f259348b7138c14d3885cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd0ff3e5903d1fb3b6e965d7642fece') in 0.015785 seconds 
+  Import took 0.018710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Classic Footstep SFX/Floor/Floor_step15.wav
+  artifactKey: Guid(ec02951caf7cd1f4fbc24fe9960cc69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Floor/Floor_step15.wav using Guid(ec02951caf7cd1f4fbc24fe9960cc69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a3f38cf566baada74177b099e8760f') in 0.016112 seconds 
+  Import took 0.019697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Classic Footstep SFX/Floor/Floor_step19.wav
+  artifactKey: Guid(a70895712392d4345be385abfae08f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Floor/Floor_step19.wav using Guid(a70895712392d4345be385abfae08f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc227ce4609cfcbd8f2b543e5694919') in 0.017960 seconds 
+  Import took 0.021861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Classic Footstep SFX/Floor/Floor_step3.wav
+  artifactKey: Guid(2921c47b0bdded540b5b813c1e60001c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Floor/Floor_step3.wav using Guid(2921c47b0bdded540b5b813c1e60001c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f911d42c2187126e041d4aa3c54040') in 0.018049 seconds 
+  Import took 0.021238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Classic Footstep SFX/Floor/Floor_step9.wav
+  artifactKey: Guid(209ae35949b251d4a83610a1e5992a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Floor/Floor_step9.wav using Guid(209ae35949b251d4a83610a1e5992a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb70104ec05ed99856e39c391134b68f') in 0.014113 seconds 
+  Import took 0.017253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Classic Footstep SFX/Floor/Floor_step18.wav
+  artifactKey: Guid(c92fd58ac6b91794ba82b93ef3f4e00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Floor/Floor_step18.wav using Guid(c92fd58ac6b91794ba82b93ef3f4e00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c361eeca90a93d0812333d94d7fa8f5') in 0.015185 seconds 
+  Import took 0.018889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Classic Footstep SFX/Floor/Floor_step6.wav
+  artifactKey: Guid(90f0af26cb589f64eaae4a27d022a1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Floor/Floor_step6.wav using Guid(90f0af26cb589f64eaae4a27d022a1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096dd1eec099fb365518703d3dee35d0') in 0.014709 seconds 
+  Import took 0.018110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Classic Footstep SFX/Floor/Floor_step5.wav
+  artifactKey: Guid(df0f02816989a0348b801669beb67362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Floor/Floor_step5.wav using Guid(df0f02816989a0348b801669beb67362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a473422f6e2cbbf86844d74236ec6d') in 0.015637 seconds 
+  Import took 0.019090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Classic Footstep SFX/Floor/Floor_step12.wav
+  artifactKey: Guid(9a7a2d7c3f0efa7408e14bd09744808d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Floor/Floor_step12.wav using Guid(9a7a2d7c3f0efa7408e14bd09744808d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f602074c2d62ec00f455f7bd948350cb') in 0.014198 seconds 
+  Import took 0.019552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Classic Footstep SFX/Floor/Floor_step10.wav
+  artifactKey: Guid(10485b9efe2bd994f98d392f91dd1a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Floor/Floor_step10.wav using Guid(10485b9efe2bd994f98d392f91dd1a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273cec1d7dc91015e35022cb72d0103a') in 0.018969 seconds 
+  Import took 0.022397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Classic Footstep SFX/Floor/Floor_step16.wav
+  artifactKey: Guid(7250925503d24ac4184011ccade045dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Floor/Floor_step16.wav using Guid(7250925503d24ac4184011ccade045dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f1e9504ddaac288b60a14bde86627a') in 0.017034 seconds 
+  Import took 0.021003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Classic Footstep SFX/Floor/Floor_step8.wav
+  artifactKey: Guid(b8da35185c17df440a0d9e0309ac22a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Floor/Floor_step8.wav using Guid(b8da35185c17df440a0d9e0309ac22a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e609ae86809300dc6a54783017252524') in 0.016245 seconds 
+  Import took 0.021573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.552547 seconds.
+  path: Assets/Classic Footstep SFX/Forest ground/Forest_ground_jump0.wav
+  artifactKey: Guid(c025c43d1749af5469c7dd8af13e162f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Forest ground/Forest_ground_jump0.wav using Guid(c025c43d1749af5469c7dd8af13e162f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a4850d31e63136450faef5e7b45e2a') in 0.022070 seconds 
+  Import took 0.025225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Classic Footstep SFX/Forest ground/Forest_ground_step1.wav
+  artifactKey: Guid(fdfa07727ba18e146b0d737f16110ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Forest ground/Forest_ground_step1.wav using Guid(fdfa07727ba18e146b0d737f16110ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591935150a60847e3997d8323f58555e') in 0.014681 seconds 
+  Import took 0.018291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Classic Footstep SFX/Forest ground/Forest_ground_step3.wav
+  artifactKey: Guid(98e005e2d5100484b88927d0803cb395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Forest ground/Forest_ground_step3.wav using Guid(98e005e2d5100484b88927d0803cb395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c1953e619cdf0fc5ce60c7bef3118d') in 0.014001 seconds 
+  Import took 0.019790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Classic Footstep SFX/Forest ground/Forest_ground_step5.wav
+  artifactKey: Guid(ddc4973571f36404d95c23401b7d2f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Forest ground/Forest_ground_step5.wav using Guid(ddc4973571f36404d95c23401b7d2f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2749dbe5853ac7806cc5d417dd83da') in 0.016122 seconds 
+  Import took 0.020212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Classic Footstep SFX/Forest ground/Forest_ground_step2.wav
+  artifactKey: Guid(e988fcf175fd1874db4f82c3b2d75db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Forest ground/Forest_ground_step2.wav using Guid(e988fcf175fd1874db4f82c3b2d75db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4936a2396afa570d4c849f620da34604') in 0.016524 seconds 
+  Import took 0.019691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Classic Footstep SFX/Forest ground/Forest_ground_jump2.wav
+  artifactKey: Guid(684d90e2defae1547a1d51bec24e6e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Forest ground/Forest_ground_jump2.wav using Guid(684d90e2defae1547a1d51bec24e6e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f852d032c9423b429adf301f33edd837') in 0.015956 seconds 
+  Import took 0.019888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Classic Footstep SFX/Forest ground/Forest_ground_step4.wav
+  artifactKey: Guid(b3e9cdac26b78934197456d8199e30bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Forest ground/Forest_ground_step4.wav using Guid(b3e9cdac26b78934197456d8199e30bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2178d1445b0ce8ee7444cc951d16844f') in 0.020551 seconds 
+  Import took 0.024740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Classic Footstep SFX/Forest ground/Forest_ground_jump1.wav
+  artifactKey: Guid(65713fdea647c1949961f91d42bed416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Forest ground/Forest_ground_jump1.wav using Guid(65713fdea647c1949961f91d42bed416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8f88c4971b120ed2b70b2c6dc1f1a3') in 0.017720 seconds 
+  Import took 0.021032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Classic Footstep SFX/Forest ground/Forest_ground_step6.wav
+  artifactKey: Guid(8c9f76b14113ab640ab4b94535ad82e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Forest ground/Forest_ground_step6.wav using Guid(8c9f76b14113ab640ab4b94535ad82e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b29903c979a9980361c9eab6c5749c2') in 0.017961 seconds 
+  Import took 0.022731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Classic Footstep SFX/Forest ground/Forest_ground_running_loop.wav
+  artifactKey: Guid(7a1da8275935858428d3af22a10ab810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Forest ground/Forest_ground_running_loop.wav using Guid(7a1da8275935858428d3af22a10ab810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb908552eb83a697d3bbc026bf12e1f') in 0.014734 seconds 
+  Import took 0.019989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Classic Footstep SFX/Forest ground/Forest_ground_step0.wav
+  artifactKey: Guid(0609acde86b59a2458aaf135531f8756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Forest ground/Forest_ground_step0.wav using Guid(0609acde86b59a2458aaf135531f8756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d8b92b3fff30e53db2693f76909f8a') in 0.021133 seconds 
+  Import took 0.024419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.111113 seconds.
+  path: Assets/Classic Footstep SFX/Ground/Ground_running_loop0.wav
+  artifactKey: Guid(b2c305fdeefa5194eaa2c69a95a9ae77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Ground/Ground_running_loop0.wav using Guid(b2c305fdeefa5194eaa2c69a95a9ae77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029798911194866160af066cfefa621c') in 0.012695 seconds 
+  Import took 0.016231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Classic Footstep SFX/Ground/Ground_Running_loop2.wav
+  artifactKey: Guid(027c416d83fd7094f8a75bb58d331ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Ground/Ground_Running_loop2.wav using Guid(027c416d83fd7094f8a75bb58d331ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe84c5f13ce51748e89220d94a5719a') in 0.017170 seconds 
+  Import took 0.021024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Classic Footstep SFX/Ground/Ground_Step0.wav
+  artifactKey: Guid(eec53751c4e79a7469fc34e774360128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Ground/Ground_Step0.wav using Guid(eec53751c4e79a7469fc34e774360128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9060cda6fbc30be312dbd00f2584b076') in 0.014667 seconds 
+  Import took 0.018584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000679 seconds.
+  path: Assets/Classic Footstep SFX/Ground/Ground_Step1.wav
+  artifactKey: Guid(dbe4405baeea2404ba3d422430b5fd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Ground/Ground_Step1.wav using Guid(dbe4405baeea2404ba3d422430b5fd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2b7a40a55d1491f92df95a04183bc8') in 0.013367 seconds 
+  Import took 0.017804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Classic Footstep SFX/Ground/Ground_Step4.wav
+  artifactKey: Guid(b662731f964d624449b092d4198147de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Ground/Ground_Step4.wav using Guid(b662731f964d624449b092d4198147de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290ac88dd3693450b92f3f2a96c0fc4e') in 0.017639 seconds 
+  Import took 0.022325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Classic Footstep SFX/Ground/Ground_Running_loop3.wav
+  artifactKey: Guid(398a631f92a5b2e4fbbf36e67e05e653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Ground/Ground_Running_loop3.wav using Guid(398a631f92a5b2e4fbbf36e67e05e653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a8f1f96ca573e0497d68e8683f8e8c') in 0.018086 seconds 
+  Import took 0.022308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Classic Footstep SFX/Ground/Ground_Running_loop1.wav
+  artifactKey: Guid(69a1cba5022b43b478202d9b934c61bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Ground/Ground_Running_loop1.wav using Guid(69a1cba5022b43b478202d9b934c61bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6c7d62f682a61956ad928b12e558ed') in 0.017292 seconds 
+  Import took 0.022512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Classic Footstep SFX/Ground/Ground_Step2.wav
+  artifactKey: Guid(c8657061120b2da4fb645654b16201f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Ground/Ground_Step2.wav using Guid(c8657061120b2da4fb645654b16201f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '224894c14ffeb77f5ce2f89a4e2b17cd') in 0.013511 seconds 
+  Import took 0.017653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000886 seconds.
+  path: Assets/Classic Footstep SFX/Ground/Ground_Step3.wav
+  artifactKey: Guid(8ff53086d637af8478c1408b78b3dd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Ground/Ground_Step3.wav using Guid(8ff53086d637af8478c1408b78b3dd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0246bf4ed88c4a626a30016e3d1f11a') in 0.014576 seconds 
+  Import took 0.018550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.581125 seconds.
+  path: Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_jump0.wav
+  artifactKey: Guid(622f42e8d781b8a44b119174e4ed9708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_jump0.wav using Guid(622f42e8d781b8a44b119174e4ed9708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bb12d30569ab4824400be624df5cf5') in 0.012067 seconds 
+  Import took 0.014961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_step0.wav
+  artifactKey: Guid(c87c3a812abe2fc4baa1fe54b4b77172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_step0.wav using Guid(c87c3a812abe2fc4baa1fe54b4b77172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0e159b2270020f4e66ce85ba682074') in 0.015418 seconds 
+  Import took 0.019096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_step1.wav
+  artifactKey: Guid(ee6a6c12e92b76347881600e494ea047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_step1.wav using Guid(ee6a6c12e92b76347881600e494ea047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2200999534bb1b2fd2f82194f8791d94') in 0.015486 seconds 
+  Import took 0.018494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_jump1.wav
+  artifactKey: Guid(18524d7f295d11b40a2b7bd3d9ef3561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_jump1.wav using Guid(18524d7f295d11b40a2b7bd3d9ef3561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6c46bdb6f214fe3bbb23d913f702fc') in 0.017463 seconds 
+  Import took 0.020873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_running_loop1.wav
+  artifactKey: Guid(b9e22b71c3ab12b4cac7d74e269d9924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_running_loop1.wav using Guid(b9e22b71c3ab12b4cac7d74e269d9924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e41754027e8084e14fd6ec0fbf8e854') in 0.016666 seconds 
+  Import took 0.019770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_step3.wav
+  artifactKey: Guid(7dd1b75dd97f9af468c655f59ab900cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_step3.wav using Guid(7dd1b75dd97f9af468c655f59ab900cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b065e23a7bc8f776b5db8b6fd57202') in 0.014435 seconds 
+  Import took 0.019287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_step4.wav
+  artifactKey: Guid(294e5ecef1c038f4eaaaad457cad5981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_step4.wav using Guid(294e5ecef1c038f4eaaaad457cad5981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46283d20f6d2739d50f913d7c508e5f9') in 0.016751 seconds 
+  Import took 0.021548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_running_loop0.wav
+  artifactKey: Guid(e4a4b3127e73a224e8642269968168d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_running_loop0.wav using Guid(e4a4b3127e73a224e8642269968168d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc6b9ff30bf00d3273d1cef170da5f0') in 0.018278 seconds 
+  Import took 0.052000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_step2.wav
+  artifactKey: Guid(06438add0bb42f846b7f1e2e0fcb78cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_step2.wav using Guid(06438add0bb42f846b7f1e2e0fcb78cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93cf7d4f6773bfa7b5388537283cbc9') in 0.069403 seconds 
+  Import took 0.097323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_running_loop2.wav
+  artifactKey: Guid(ac523206fef37f54d94ac272b21c9dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_running_loop2.wav using Guid(ac523206fef37f54d94ac272b21c9dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d126208cb8ff23660082b23bcbf981') in 0.045880 seconds 
+  Import took 0.048792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_step5.wav
+  artifactKey: Guid(0810c6bbffb6c0143984f3145f710f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_step5.wav using Guid(0810c6bbffb6c0143984f3145f710f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077ac7cb7436e23178cc9fa3e646c294') in 0.016837 seconds 
+  Import took 0.022108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_step6.wav
+  artifactKey: Guid(ebd381bfafa32b844a6954fc40a08c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_step6.wav using Guid(ebd381bfafa32b844a6954fc40a08c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51edd88abc1fd4cc2cd72c2b31a59a4f') in 0.014626 seconds 
+  Import took 0.019749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.512963 seconds.
+  path: Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_step7.wav
+  artifactKey: Guid(5c3c2c44515d6fe44a395faf0741edc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_step7.wav using Guid(5c3c2c44515d6fe44a395faf0741edc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb6d65f5548ebcb5da942f04ca6ddb4') in 0.018255 seconds 
+  Import took 0.022655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_walking_loop.wav
+  artifactKey: Guid(35e806fa0fdf77e47a3235020be266a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Footstep SFX/Rocky_ground/Rocky_ground_walking_loop.wav using Guid(35e806fa0fdf77e47a3235020be266a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'decb0ea3182a1d04b948f22fb96b2364') in 0.018800 seconds 
+  Import took 0.024669 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
