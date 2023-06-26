@@ -121,7 +121,7 @@ public class FPScript : MonoBehaviour
         {
             timer += Time.deltaTime * (IsSprinting ? sprintBobSpeed : walkBobSpeed);
             playerCamera.transform.localPosition = new Vector3(playerCamera.transform.localPosition.x,
-                defaultYPos = Mathf.Sin(timer) * (IsSprinting ? sprintBobAmount : walkBobAmount),
+                defaultYPos + Mathf.Sin(timer) * (IsSprinting ? sprintBobAmount : walkBobAmount),
                 playerCamera.transform.localPosition.z);
         }
     }
