@@ -5,7 +5,7 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
     public List<DataItem> items = new List<DataItem>();
-    public int maxSlotItem;
+    //public int maxSlotItem;
 
     public void AddItem(DataItem new_item)
     {
@@ -23,5 +23,17 @@ public class Inventory : MonoBehaviour
                 items.RemoveAt(i);
             }
         }
+    }
+
+    public DataItem searchItem(DataItem searchItem)
+    {
+        for(int i = 0; i< items.Count; i++)
+        {
+            if (items[i].item.m_name == searchItem.item.m_name)
+            {
+                return items[i];
+            }
+        }
+        return null;
     }
 }

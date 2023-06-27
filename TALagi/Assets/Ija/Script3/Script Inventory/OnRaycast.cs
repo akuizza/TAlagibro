@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OnRaycast : MonoBehaviour
+public abstract class OnRaycast : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public DataItem requirementItem;
 
-    // Update is called once per frame
-    void Update()
+    public virtual void OnInteract() { }
+
+    public virtual void OnUseItem() { }
+
+    public void removeRequirement()
     {
-        
+        Debug.Log("hapus persyaratan yang ada di objek: " + gameObject.name);
+        requirementItem = null;
     }
 }
