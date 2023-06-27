@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item:
     m_name: Kunci_Gerbang
-    sprite: {fileID: 21300000, guid: bcc609ed323ba2446904019025a15ff4, type: 3}
+    sprite: {fileID: 21300000, guid: b20c9805ceb7cd048a4be62d9097f018, type: 3}
