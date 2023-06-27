@@ -1,9 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class Item 
 {
-    public string m_name;
+    public string m_name; //nama item
     public Sprite sprite;
 }

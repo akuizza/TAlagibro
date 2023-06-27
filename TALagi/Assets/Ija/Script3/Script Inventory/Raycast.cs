@@ -13,33 +13,43 @@ public class Raycast : MonoBehaviour
 
     private void Start()
     {
-        
+        textNotification.gameObject.SetActive(false);
     }
-
     private void Update()
     {
         RaycastHit hit;
-        if (Physics.Raycast(transform.position, transform.forward, out hit, range, interactedMask))
+        if(Physics.Raycast(transform.position, transform.forward, out hit, range, interactedMask))
         {
             OnRaycast or = hit.transform.gameObject.GetComponent<OnRaycast>();
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
-               if(or.requirementItem != null)
+                if(or.requirementItem != null)
                 {
                     if (inventory.searchItem(or.requirementItem))
                     {
                         DataItem searchedItem = inventory.searchItem(or.requirementItem);
-                        or.OnUseItem();
+                        or.OnuseItem();
                         inventory.RemoveItem(searchedItem);
                     }
                     else
                     {
-                        or.OnInteract();
+                        StartCoroutine(UINotification(or));
                     }
                 }
+                else
+                {
+                    or.OnInteract();
+                }
+                
             }
         }
-        
+    }
 
+    IEnumerator UINotification(OnRaycast or)
+    {
+        textNotification.gameObject.SetActive(true);
+        textNotification.text = or.gameObject.name + "Membutuhkan item " + or.requirementItem.item.m_name;
+        yield return new WaitForSeconds(5);
+        textNotification.gameObject.SetActive(false); 
     }
 }
