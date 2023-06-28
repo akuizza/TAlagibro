@@ -8,6 +8,7 @@ public class CutSceneEntry : MonoBehaviour
     public GameObject TimeLine;
     public GameObject CamRender;
 
+
     private void OnTriggerEnter(Collider other)
     {
 

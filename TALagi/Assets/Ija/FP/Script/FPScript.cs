@@ -63,6 +63,7 @@ public class FPScript : MonoBehaviour
     void Awake()
     {
         CamRen.SetActive(false);
+
         playerCamera = GetComponentInChildren<Camera>();
         characterController = GetComponent<CharacterController>();
         defaultYPos = playerCamera.transform.localPosition.y;
