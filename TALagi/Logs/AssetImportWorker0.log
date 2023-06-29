@@ -15,11 +15,11 @@ A:/Unity Project/TAProject/TAlagibro/TALagi
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52808
+54026
 Successfully changed project path to: A:/Unity Project/TAProject/TAlagibro/TALagi
 A:/Unity Project/TAProject/TAlagibro/TALagi
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 53.14 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 54.07 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001488 seconds.
+Registered in 0.001644 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 53.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 53.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.536 seconds
+- Completed reload, in  0.558 seconds
 Domain Reload Profiling:
-	ReloadAssembly (537ms)
-		BeginReloadAssembly (51ms)
+	ReloadAssembly (558ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (420ms)
-			LoadAssemblies (49ms)
+		EndReloadAssembly (434ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (134ms)
+			SetupTypeCache (148ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (169ms)
+			SetupLoadedEditorAssemblies (170ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (54ms)
 				BeforeProcessingInitializeOnLoad (15ms)
 				ProcessInitializeOnLoadAttributes (71ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002022 seconds.
+Registered in 0.006140 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.064 seconds
+- Completed reload, in  1.070 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1064ms)
-		BeginReloadAssembly (127ms)
+	ReloadAssembly (1071ms)
+		BeginReloadAssembly (125ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (884ms)
-			LoadAssemblies (77ms)
+		EndReloadAssembly (894ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (246ms)
+			SetupTypeCache (241ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (441ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (435ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (351ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
+				ProcessInitializeOnLoadAttributes (340ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
 Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1729 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.1 MB.
-System memory in use after: 180.0 MB.
+Unloading 1728 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.2 MB.
+System memory in use after: 180.1 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2197.
-Total: 2.963000 ms (FindLiveObjects: 0.157800 ms CreateObjectMapping: 0.067200 ms MarkObjects: 2.550000 ms  DeleteObjects: 0.187000 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2196.
+Total: 3.054100 ms (FindLiveObjects: 0.160500 ms CreateObjectMapping: 0.063500 ms MarkObjects: 2.598600 ms  DeleteObjects: 0.230600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,839 +133,823 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/Scenes/Good Ending.unity
   artifactKey: Guid(99c172aacd30f7144ab50dea98380d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Good Ending.unity using Guid(99c172aacd30f7144ab50dea98380d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8a5e833a1b2db5c7c11e734cf0ed27') in 0.016145 seconds 
-  Import took 0.018898 seconds .
+Start importing Assets/Scenes/Good Ending.unity using Guid(99c172aacd30f7144ab50dea98380d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eef11fc106017c24205083cb88bcb9b') in 0.017799 seconds 
+  Import took 0.022914 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.242236 seconds.
-  path: Assets/Ija/Inventory/Scriptable/Kunci_Gerbang.asset
-  artifactKey: Guid(e1dd022a23b78344b8edbcebcfd991bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ija/Inventory/Scriptable/Kunci_Gerbang.asset using Guid(e1dd022a23b78344b8edbcebcfd991bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d073f70e5f5b3f9e3411ee9dd6b6f3c') in 0.059416 seconds 
-  Import took 0.062364 seconds .
+  Time since last request: 361.837995 seconds.
+  path: Assets/Scenes/3.unity
+  artifactKey: Guid(bbf5c0f4a15402343a6852670a457b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3.unity using Guid(bbf5c0f4a15402343a6852670a457b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9aa60536cc6be72f0e90576d662ae7') in 0.002354 seconds 
+  Import took 0.016905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1351.375254 seconds.
+  path: Assets/3D Asset/PropsRumah/Texture
+  artifactKey: Guid(7d824b8d0da64274ebfb48d2698a090d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Texture using Guid(7d824b8d0da64274ebfb48d2698a090d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bad7495fd853baa0915cde9652d3b8') in 0.008680 seconds 
+  Import took 0.025189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035121 seconds.
+  path: Assets/3D Asset/PropsRumah/Texture/Entertainment.png
+  artifactKey: Guid(02e5b52cd3aa79d4292a0366630d4786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Texture/Entertainment.png using Guid(02e5b52cd3aa79d4292a0366630d4786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09d82f3bb7a56846399b47d6e3efbb4') in 0.119364 seconds 
+  Import took 0.124444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/3D Asset/PropsRumah/Texture/Wood_05.jpg
+  artifactKey: Guid(b0373847bf8193945bd67146668c6a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Texture/Wood_05.jpg using Guid(b0373847bf8193945bd67146668c6a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a05288b70bb5c7c49a140bbe7ba4b8') in 0.024600 seconds 
+  Import took 0.028205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/3D Asset/PropsRumah/Texture/Fabric_10.jpg
+  artifactKey: Guid(73fe612316df9a74797b238497adfa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Texture/Fabric_10.jpg using Guid(73fe612316df9a74797b238497adfa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11bf3be5b6a3909d193eb8aa611c6798') in 0.020940 seconds 
+  Import took 0.025658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/3D Asset/PropsRumah/Texture/Wood_07.jpg
+  artifactKey: Guid(d98507d66d9842743a0a22dcec1cb2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Texture/Wood_07.jpg using Guid(d98507d66d9842743a0a22dcec1cb2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbce98443ea754b764ca6bc82ab206f') in 0.014348 seconds 
+  Import took 0.019248 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000246 seconds.
-  path: Assets/Ija/Inventory/Scriptable/KunciPintu1.asset
-  artifactKey: Guid(2198cc69bea05a9448b86e20ebf1eb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ija/Inventory/Scriptable/KunciPintu1.asset using Guid(2198cc69bea05a9448b86e20ebf1eb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96cfdbca5ebd4913ef1c155ddfaaccc') in 0.009325 seconds 
-  Import took 0.011923 seconds .
+  path: Assets/3D Asset/PropsRumah/Texture/Wood_09.jpg
+  artifactKey: Guid(7d6bdf1d41d47154f803857347ea3e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Texture/Wood_09.jpg using Guid(7d6bdf1d41d47154f803857347ea3e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbbf37fb2238374961997fcb3f80276') in 0.020093 seconds 
+  Import took 0.023954 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.069829 seconds.
-  path: Assets/Ija/Script3/FadeEffect.cs
-  artifactKey: Guid(463283c5a441ef94b8302bd747517214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ija/Script3/FadeEffect.cs using Guid(463283c5a441ef94b8302bd747517214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7953cdb13765c37ad048388b8902feda') in 0.015772 seconds 
-  Import took 0.018843 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001987 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.006 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1006ms)
-		BeginReloadAssembly (114ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (836ms)
-			LoadAssemblies (79ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (262ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (383ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (302ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1670 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.7 MB.
-System memory in use after: 174.6 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2199.
-Total: 2.877300 ms (FindLiveObjects: 0.143800 ms CreateObjectMapping: 0.061400 ms MarkObjects: 2.505500 ms  DeleteObjects: 0.165500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 10.332031 seconds.
-  path: Assets/Ija/Script3/GDTFadeEffect.cs
-  artifactKey: Guid(e4f07b96075a94f4c897343a8aa477ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ija/Script3/GDTFadeEffect.cs using Guid(e4f07b96075a94f4c897343a8aa477ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa44b6edbc5a79cf520cd23927d11d87') in 0.013387 seconds 
-  Import took 0.016856 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001930 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.033 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1033ms)
-		BeginReloadAssembly (104ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (874ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (255ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (423ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (338ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1669 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.7 MB.
-System memory in use after: 174.6 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2201.
-Total: 2.909600 ms (FindLiveObjects: 0.155700 ms CreateObjectMapping: 0.061100 ms MarkObjects: 2.513600 ms  DeleteObjects: 0.178200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 10.413399 seconds.
-  path: Assets/Ija/Script3/LoadScene.cs
-  artifactKey: Guid(9b20fe3201d79ce469b0915a4f0709f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ija/Script3/LoadScene.cs using Guid(9b20fe3201d79ce469b0915a4f0709f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f41f1df7ac635a6ad7ad9a4464e4f2') in 0.008755 seconds 
-  Import took 0.011396 seconds .
+  Time since last request: 0.000210 seconds.
+  path: Assets/3D Asset/PropsRumah/Texture/Fabric.jpg
+  artifactKey: Guid(46cac1957530c1844979645634ec0360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Texture/Fabric.jpg using Guid(46cac1957530c1844979645634ec0360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0697dc3f8fc1083491a0d739f0dd8c') in 0.016344 seconds 
+  Import took 0.021851 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 48.388615 seconds.
-  path: Assets/Ija/Script3/LoadScene2.cs
-  artifactKey: Guid(484014616bed15244aa12a14b7906955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ija/Script3/LoadScene2.cs using Guid(484014616bed15244aa12a14b7906955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9105c2a31b248a3987f6528f31604436') in 0.009603 seconds 
-  Import took 0.013676 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001934 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.019 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1019ms)
-		BeginReloadAssembly (103ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (849ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (247ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (405ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (322ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1670 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.8 MB.
-System memory in use after: 174.7 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2205.
-Total: 3.033900 ms (FindLiveObjects: 0.140900 ms CreateObjectMapping: 0.062200 ms MarkObjects: 2.646800 ms  DeleteObjects: 0.183000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003260 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.994 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1001ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (847ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (243ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (401ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (320ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1670 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.8 MB.
-System memory in use after: 174.7 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2208.
-Total: 3.055100 ms (FindLiveObjects: 0.141400 ms CreateObjectMapping: 0.068900 ms MarkObjects: 2.649000 ms  DeleteObjects: 0.194800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002270 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.532 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1533ms)
-		BeginReloadAssembly (160ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (1295ms)
-			LoadAssemblies (118ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (378ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (639ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (509ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1670 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.8 MB.
-System memory in use after: 174.7 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2211.
-Total: 7.868200 ms (FindLiveObjects: 0.257000 ms CreateObjectMapping: 0.087500 ms MarkObjects: 6.366300 ms  DeleteObjects: 1.154200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002364 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.985 seconds
-Domain Reload Profiling:
-	ReloadAssembly (985ms)
-		BeginReloadAssembly (105ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (826ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (237ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (398ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (316ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1670 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.8 MB.
-System memory in use after: 174.7 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2214.
-Total: 3.088800 ms (FindLiveObjects: 0.218600 ms CreateObjectMapping: 0.091100 ms MarkObjects: 2.575900 ms  DeleteObjects: 0.202200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002288 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.064 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1065ms)
-		BeginReloadAssembly (127ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (885ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (248ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (424ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (340ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1670 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.8 MB.
-System memory in use after: 174.7 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2217.
-Total: 3.143600 ms (FindLiveObjects: 0.150900 ms CreateObjectMapping: 0.107900 ms MarkObjects: 2.666900 ms  DeleteObjects: 0.216700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 649.598709 seconds.
-  path: Assets/Scenes/Good Ending.unity
-  artifactKey: Guid(99c172aacd30f7144ab50dea98380d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Good Ending.unity using Guid(99c172aacd30f7144ab50dea98380d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffb085190ce2045bf257458c5c66917') in 0.198097 seconds 
-  Import took 0.203398 seconds .
+  Time since last request: 0.000357 seconds.
+  path: Assets/3D Asset/PropsRumah/Texture/Wood_03.jpg
+  artifactKey: Guid(03d3397f8bbe43244867c3e97d19b431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Texture/Wood_03.jpg using Guid(03d3397f8bbe43244867c3e97d19b431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35fba0864e97cfc6134687c1e9ce75a') in 0.015705 seconds 
+  Import took 0.021682 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.821946 seconds.
-  path: Assets/Ija/Script3/LoadScene.cs
-  artifactKey: Guid(9b20fe3201d79ce469b0915a4f0709f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ija/Script3/LoadScene.cs using Guid(9b20fe3201d79ce469b0915a4f0709f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e027fe84f0aa047c1e43afee69813668') in 0.009355 seconds 
-  Import took 0.013334 seconds .
+  Time since last request: 0.000209 seconds.
+  path: Assets/3D Asset/PropsRumah/Texture/Wood_15.jpg
+  artifactKey: Guid(5613cf2fc3b88f0498c8b75527c11c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Texture/Wood_15.jpg using Guid(5613cf2fc3b88f0498c8b75527c11c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333525c51f3ea9a0dc7c7ff605eb491f') in 0.020312 seconds 
+  Import took 0.024671 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 38.809503 seconds.
-  path: Assets/Ija/Script3/Skyrotate.cs
-  artifactKey: Guid(b875e5dc41c6cf543b9fe9086f463618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ija/Script3/Skyrotate.cs using Guid(b875e5dc41c6cf543b9fe9086f463618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784372bf229518ccde8b26b32e2e26ca') in 0.010078 seconds 
-  Import took 0.013787 seconds .
+  Time since last request: 0.000286 seconds.
+  path: Assets/3D Asset/PropsRumah/Texture/Fabric_21.jpg
+  artifactKey: Guid(f20dad5a9c79b5949bd94b1966a6ac74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Texture/Fabric_21.jpg using Guid(f20dad5a9c79b5949bd94b1966a6ac74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b850a0220ef693eee40d5fca14418c5') in 0.020555 seconds 
+  Import took 0.025365 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.758003 seconds.
-  path: Assets/Ija/Script3/SceneLoader.cs
-  artifactKey: Guid(94324ceba452c7c4a98a18c5474e5faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ija/Script3/SceneLoader.cs using Guid(94324ceba452c7c4a98a18c5474e5faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bfc903d7d0769ed60ef55245230b370') in 0.019371 seconds 
-  Import took 0.022305 seconds .
+  Time since last request: 1854.597346 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari.fbx
+  artifactKey: Guid(98b9832c759137845ba9350d9848c06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari.fbx using Guid(98b9832c759137845ba9350d9848c06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5849141e9c08bdfd42c1bfd567f018f') in 0.317055 seconds 
+  Import took 0.346896 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 47.929327 seconds.
-  path: Assets/Ija/Script3/LoadScene.cs
-  artifactKey: Guid(9b20fe3201d79ce469b0915a4f0709f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ija/Script3/LoadScene.cs using Guid(9b20fe3201d79ce469b0915a4f0709f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8088210df2f3f88751b4ba86e59c072') in 0.001614 seconds 
-  Import took 0.004988 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002106 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.034 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1034ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (870ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (256ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (412ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (327ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1670 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.8 MB.
-System memory in use after: 174.7 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2220.
-Total: 3.251500 ms (FindLiveObjects: 0.152000 ms CreateObjectMapping: 0.071100 ms MarkObjects: 2.821000 ms  DeleteObjects: 0.206000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007973 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.047 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1047ms)
-		BeginReloadAssembly (115ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (878ms)
-			LoadAssemblies (108ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (237ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (428ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (342ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1670 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.8 MB.
-System memory in use after: 174.7 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2223.
-Total: 3.510200 ms (FindLiveObjects: 0.228500 ms CreateObjectMapping: 0.084400 ms MarkObjects: 2.956200 ms  DeleteObjects: 0.239900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 230.689675 seconds.
-  path: Assets/Scenes/1.unity
-  artifactKey: Guid(5383afd2b7d8b8f43a1a8b3ec8f12c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/1.unity using Guid(5383afd2b7d8b8f43a1a8b3ec8f12c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387b39f5eed9abbc9eaa0423a9eaa345') in 0.048607 seconds 
-  Import took 0.054728 seconds .
+  Time since last request: 61.830404 seconds.
+  path: Assets/3D Asset/PropsRumah/PropsLemari.png
+  artifactKey: Guid(1b912d953005f1b4ea35a5cf5dff2dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/PropsLemari.png using Guid(1b912d953005f1b4ea35a5cf5dff2dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c170045734d3cc9306b4fb6d1a200f') in 0.030955 seconds 
+  Import took 0.036094 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2730.585129 seconds.
-  path: Assets/Timeline/GoodEndig.playable
-  artifactKey: Guid(6fb140ba27f75404e899f7b6e0e14dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Timeline/GoodEndig.playable using Guid(6fb140ba27f75404e899f7b6e0e14dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3c212835568c62a4647c21265c42bd') in 0.061550 seconds 
-  Import took 0.068417 seconds .
+  Time since last request: 892.639705 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_1.fbx
+  artifactKey: Guid(8455700b7f230e548a1795bce9e2a68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_1.fbx using Guid(8455700b7f230e548a1795bce9e2a68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e240398fb2d51e27d970d08e321bc1') in 0.043715 seconds 
+  Import took 0.051879 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 40.205279 seconds.
-  path: Assets/Scenes/2.unity
-  artifactKey: Guid(728acde987ee72e47839a572311a16d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/2.unity using Guid(728acde987ee72e47839a572311a16d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b007a22902f984bbf0afb01bdbe9cd4e') in 0.009719 seconds 
-  Import took 0.014971 seconds .
+  Time since last request: 0.000366 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_Pendek_2.fbx
+  artifactKey: Guid(830114d839b5fa14585e25092d67c370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_Pendek_2.fbx using Guid(830114d839b5fa14585e25092d67c370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3f4150714bb9e33ad4daa94a48de43') in 0.024896 seconds 
+  Import took 0.030365 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.810057 seconds.
-  path: Assets/Scenes/3.unity
-  artifactKey: Guid(bbf5c0f4a15402343a6852670a457b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/3.unity using Guid(bbf5c0f4a15402343a6852670a457b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2029a3402cf05647fde9e411d08c286') in 0.018728 seconds 
-  Import took 0.022839 seconds .
+  Time since last request: 0.000750 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_2_P1.fbx
+  artifactKey: Guid(ee7a53205d76a5343879aa4802d74f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_2_P1.fbx using Guid(ee7a53205d76a5343879aa4802d74f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd167c56b1229564af2a6fff93b01b7') in 0.023154 seconds 
+  Import took 0.028264 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.443494 seconds.
-  path: Assets/Scenes/1.unity
-  artifactKey: Guid(5383afd2b7d8b8f43a1a8b3ec8f12c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/1.unity using Guid(5383afd2b7d8b8f43a1a8b3ec8f12c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4cbbe4b27485d15241d26c99bdd1d6') in 0.002574 seconds 
-  Import took 0.006604 seconds .
+  Time since last request: 0.000449 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_1_P1.fbx
+  artifactKey: Guid(b7d0f203711da4b40ade4e34c213be22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_1_P1.fbx using Guid(b7d0f203711da4b40ade4e34c213be22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35456f016da96572cc358e4063e3f09') in 0.027400 seconds 
+  Import took 0.031642 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 50.646165 seconds.
-  path: Assets/Timeline/GoodEnding.playable
-  artifactKey: Guid(6fb140ba27f75404e899f7b6e0e14dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Timeline/GoodEnding.playable using Guid(6fb140ba27f75404e899f7b6e0e14dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eeca1ad392dca8cfca5b09a40572a90') in 0.011807 seconds 
-  Import took 0.017531 seconds .
+  Time since last request: 0.000287 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_3_P2.fbx
+  artifactKey: Guid(15f53ce3bb1355745abee1cf77d9289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_3_P2.fbx using Guid(15f53ce3bb1355745abee1cf77d9289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca264f78010400122d072091f711069') in 0.032970 seconds 
+  Import took 0.039759 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.867277 seconds.
-  path: Assets/Timeline/Bad Ending.playable
-  artifactKey: Guid(269e93422ed00f547a5c3ef45dd5f7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Timeline/Bad Ending.playable using Guid(269e93422ed00f547a5c3ef45dd5f7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7613191c77c6c66df2bf2148dc3e1f63') in 0.007368 seconds 
-  Import took 0.012265 seconds .
+  Time since last request: 0.000207 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_2_P3.fbx
+  artifactKey: Guid(a180c0568da0c6a42be2bb6a28eff202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_2_P3.fbx using Guid(a180c0568da0c6a42be2bb6a28eff202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a394f3f27a66bbcd428a10278486e8b0') in 0.024175 seconds 
+  Import took 0.027669 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.768579 seconds.
-  path: Assets/Timeline/Good Ending.playable
-  artifactKey: Guid(6fb140ba27f75404e899f7b6e0e14dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Timeline/Good Ending.playable using Guid(6fb140ba27f75404e899f7b6e0e14dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd412a24470d647f5f0fe49e313fc33c') in 0.012902 seconds 
-  Import took 0.016894 seconds .
+  Time since last request: 0.000263 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_2_P2.fbx
+  artifactKey: Guid(309ef7a1dc7ec424180cfc058f606909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_2_P2.fbx using Guid(309ef7a1dc7ec424180cfc058f606909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ba00335835b1d2024c180ec4655632') in 0.022958 seconds 
+  Import took 0.029588 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.361559 seconds.
-  path: Assets/Timeline/CutScene 1.playable
-  artifactKey: Guid(96cc278b9ed023b49a4f027679834628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Timeline/CutScene 1.playable using Guid(96cc278b9ed023b49a4f027679834628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663db380ea67f3ecee864f4567554ff2') in 0.015820 seconds 
-  Import took 0.020452 seconds .
+  Time since last request: 0.000225 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_1_P2.fbx
+  artifactKey: Guid(e98d836f78eb9d048aa2332ed35b1c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_1_P2.fbx using Guid(e98d836f78eb9d048aa2332ed35b1c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8710d341945d0a9706e522267f042b') in 0.020860 seconds 
+  Import took 0.025603 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1123.468909 seconds.
-  path: Assets/Timeline/BlackImage Timeline.playable
-  artifactKey: Guid(ef3b414a0efc7f24592236f13e1901cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Timeline/BlackImage Timeline.playable using Guid(ef3b414a0efc7f24592236f13e1901cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b64a33722f935c62f83938880e36e3') in 0.009290 seconds 
-  Import took 0.014666 seconds .
+  Time since last request: 0.000255 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_2_P4.fbx
+  artifactKey: Guid(6404dadd5e2228a4f9b60ac5ffebfb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_2_P4.fbx using Guid(6404dadd5e2228a4f9b60ac5ffebfb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be17eb24507719c791332bd7b086e22') in 0.030304 seconds 
+  Import took 0.036060 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 819.061857 seconds.
-  path: Assets/Audio/Player Audio
-  artifactKey: Guid(784bec4fdd98a384a81c8808bbec1fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Player Audio using Guid(784bec4fdd98a384a81c8808bbec1fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12544f720f68ac8d60c0fb30b116c84') in 0.011914 seconds 
-  Import took 0.017125 seconds .
+  Time since last request: 0.000239 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_3.fbx
+  artifactKey: Guid(f2a2ae899fbf7044692047135299e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_3.fbx using Guid(f2a2ae899fbf7044692047135299e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14327faf91d2c4a9d54e19ba22a48544') in 0.025533 seconds 
+  Import took 0.030276 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.094550 seconds.
-  path: Assets/Audio/Player Audio/Jalan.mp3
-  artifactKey: Guid(478c1b9de04340f4fbc359afdec7c668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Player Audio/Jalan.mp3 using Guid(478c1b9de04340f4fbc359afdec7c668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e185786d209e69fc985a725fe4bbae26') in 0.264113 seconds 
-  Import took 0.267878 seconds .
+  Time since last request: 0.000260 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_3_P1.fbx
+  artifactKey: Guid(cda461280230a1b488a24cd5b94e6dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_3_P1.fbx using Guid(cda461280230a1b488a24cd5b94e6dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b06ca7b2cbb9c4a49f416cde6ceb5a1') in 0.019391 seconds 
+  Import took 0.024489 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Audio/Player Audio/Untitled video - Made with Clipchamp.mp3
-  artifactKey: Guid(e6f9bd7281a2f314eb95dc862b7d26eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Player Audio/Untitled video - Made with Clipchamp.mp3 using Guid(e6f9bd7281a2f314eb95dc862b7d26eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5f9b9ebb5d0aec7c12e0bcff33accb') in 0.024954 seconds 
-  Import took 0.029539 seconds .
+  Time since last request: 0.000257 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_Pendek.fbx
+  artifactKey: Guid(ce3a486a4ba8e5a4f895ef83979c7d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_Pendek.fbx using Guid(ce3a486a4ba8e5a4f895ef83979c7d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39210162ce8f19f5f9733c934b334ea') in 0.020752 seconds 
+  Import took 0.024595 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 669.479416 seconds.
-  path: Assets/Audio/SoundEffect/male-scream-123080.mp3
-  artifactKey: Guid(30a9f71ed3d6e564597181b79b146ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/SoundEffect/male-scream-123080.mp3 using Guid(30a9f71ed3d6e564597181b79b146ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd871b60e3387f87d183600aa86c0892a') in 0.029750 seconds 
-  Import took 0.035084 seconds .
+  Time since last request: 0.000235 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_2.fbx
+  artifactKey: Guid(0a4efcbbb7c7fca4abc5661f5bbc5c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_2.fbx using Guid(0a4efcbbb7c7fca4abc5661f5bbc5c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43ab6f737e691fbdbf485f7e33f718a') in 0.026934 seconds 
+  Import took 0.032734 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.596032 seconds.
-  path: Assets/Audio/SoundEffect/Male Scream.mp3
-  artifactKey: Guid(30a9f71ed3d6e564597181b79b146ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/SoundEffect/Male Scream.mp3 using Guid(30a9f71ed3d6e564597181b79b146ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1272ee7d8d08b4f4c6e2b30614e89fb3') in 0.021831 seconds 
-  Import took 0.026172 seconds .
+  Time since last request: 8.777758 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_Pendek_3.fbx
+  artifactKey: Guid(b0b4b1dd9c6075e4da8773a2dbf2fb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_Pendek_3.fbx using Guid(b0b4b1dd9c6075e4da8773a2dbf2fb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa3ee6eefeea0a5aa53b85927b62025') in 0.026076 seconds 
+  Import took 0.030048 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 314.704481 seconds.
-  path: Assets/Audio/SoundEffect/male-scream-95807.mp3
-  artifactKey: Guid(b3b88781282df924e957d9797269d916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/SoundEffect/male-scream-95807.mp3 using Guid(b3b88781282df924e957d9797269d916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e238b0dbffe60d394396b92b307449') in 0.022488 seconds 
-  Import took 0.027603 seconds .
+  Time since last request: 0.000240 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P2.fbx
+  artifactKey: Guid(152895f2272278c43aa1adc867f91f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P2.fbx using Guid(152895f2272278c43aa1adc867f91f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908233525b39c4e962f189f72df1534d') in 0.064848 seconds 
+  Import took 0.069793 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 157.020699 seconds.
-  path: Assets/Audio/SoundEffect/knife-stab-sound-effect-36354.mp3
-  artifactKey: Guid(266c4934931fdf94181f4b71b48afead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/SoundEffect/knife-stab-sound-effect-36354.mp3 using Guid(266c4934931fdf94181f4b71b48afead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa3a4a0e7112e239007631cdde60874') in 0.017553 seconds 
-  Import took 0.022233 seconds .
+  Time since last request: 0.000205 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P3.fbx
+  artifactKey: Guid(22dc83044bcdfb84890b606e85bcf1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P3.fbx using Guid(22dc83044bcdfb84890b606e85bcf1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2694196475273a402f9b034fb7f3e857') in 0.068438 seconds 
+  Import took 0.075834 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.830328 seconds.
-  path: Assets/Audio/SoundEffect/Knife Stab.mp3
-  artifactKey: Guid(266c4934931fdf94181f4b71b48afead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/SoundEffect/Knife Stab.mp3 using Guid(266c4934931fdf94181f4b71b48afead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccee436b412c9d8f628739949952f9a6') in 0.014597 seconds 
-  Import took 0.018199 seconds .
+  Time since last request: 0.000214 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P1.fbx
+  artifactKey: Guid(91b3f3ae776d159458016dc23ffa55cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P1.fbx using Guid(91b3f3ae776d159458016dc23ffa55cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374604503e93875b2ad14b90e6bd79b2') in 0.062971 seconds 
+  Import took 0.068203 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 264.152013 seconds.
-  path: Assets/Audio/SoundEffect/slash1-94367.mp3
-  artifactKey: Guid(9af1490390e695145a6855ea67444b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/SoundEffect/slash1-94367.mp3 using Guid(9af1490390e695145a6855ea67444b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1836b5c2b67bcc9d3904af822b8410f') in 0.015231 seconds 
-  Import took 0.020347 seconds .
+  Time since last request: 0.000203 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P4.fbx
+  artifactKey: Guid(ed4d1259c4c40a7479074d965747ccaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P4.fbx using Guid(ed4d1259c4c40a7479074d965747ccaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0bbfae5b178d716622c55a05d10656e') in 0.048846 seconds 
+  Import took 0.053889 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.953990 seconds.
-  path: Assets/Audio/SoundEffect/Slash.mp3
-  artifactKey: Guid(9af1490390e695145a6855ea67444b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/SoundEffect/Slash.mp3 using Guid(9af1490390e695145a6855ea67444b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5381ca97a46b15cb15ed906921e57f7') in 0.015347 seconds 
-  Import took 0.019749 seconds .
+  Time since last request: 54.633137 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P5.fbx
+  artifactKey: Guid(fb046b1a05a154441a4df73e1e7d1184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P5.fbx using Guid(fb046b1a05a154441a4df73e1e7d1184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c150ba18e46bf4109e8a8819616ed47a') in 0.028806 seconds 
+  Import took 0.034322 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 232.144876 seconds.
-  path: Assets/Audio/Classic Footstep SFX/Ground
-  artifactKey: Guid(1108f832697665c4cbddbc0b44dff6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Classic Footstep SFX/Ground using Guid(1108f832697665c4cbddbc0b44dff6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c54ada45d6b69b7010e6b752e41c2c9') in 0.019821 seconds 
-  Import took 0.024558 seconds .
+  Time since last request: 2129.937502 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_1.fbx
+  artifactKey: Guid(8455700b7f230e548a1795bce9e2a68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_1.fbx using Guid(8455700b7f230e548a1795bce9e2a68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771db18a7bda94760a0a0b99bfefbc4b') in 0.057308 seconds 
+  Import took 0.065568 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.062590 seconds.
-  path: Assets/Audio/Classic Footstep SFX/Ground/Ground_running_loop0.wav
-  artifactKey: Guid(b2c305fdeefa5194eaa2c69a95a9ae77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Classic Footstep SFX/Ground/Ground_running_loop0.wav using Guid(b2c305fdeefa5194eaa2c69a95a9ae77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16965bff55b28c762976e5b937b4a5a2') in 0.022429 seconds 
-  Import took 0.026551 seconds .
+  Time since last request: 0.000259 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_Pendek_2.fbx
+  artifactKey: Guid(830114d839b5fa14585e25092d67c370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_Pendek_2.fbx using Guid(830114d839b5fa14585e25092d67c370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2eb4f1c131818dc28034c6d15576c3') in 0.040705 seconds 
+  Import took 0.045790 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Audio/Classic Footstep SFX/Ground/Ground_Running_loop2.wav
-  artifactKey: Guid(027c416d83fd7094f8a75bb58d331ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Classic Footstep SFX/Ground/Ground_Running_loop2.wav using Guid(027c416d83fd7094f8a75bb58d331ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46739b98840598b3259ebdc33a966c78') in 0.017143 seconds 
-  Import took 0.020781 seconds .
+  Time since last request: 0.000226 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_2_P1.fbx
+  artifactKey: Guid(ee7a53205d76a5343879aa4802d74f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_2_P1.fbx using Guid(ee7a53205d76a5343879aa4802d74f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc55d3b737f8721f81c00c9586a6d12') in 0.034280 seconds 
+  Import took 0.038416 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Audio/Classic Footstep SFX/Ground/Ground_Step0.wav
-  artifactKey: Guid(eec53751c4e79a7469fc34e774360128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Classic Footstep SFX/Ground/Ground_Step0.wav using Guid(eec53751c4e79a7469fc34e774360128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152a5123aedd911b5239ab1059b50947') in 0.023055 seconds 
-  Import took 0.027085 seconds .
+  Time since last request: 0.000298 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P2.fbx
+  artifactKey: Guid(152895f2272278c43aa1adc867f91f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P2.fbx using Guid(152895f2272278c43aa1adc867f91f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba7d6a88ddd32bb2445c431c41876e6') in 0.032906 seconds 
+  Import took 0.040033 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Audio/Classic Footstep SFX/Ground/Ground_Step1.wav
-  artifactKey: Guid(dbe4405baeea2404ba3d422430b5fd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Classic Footstep SFX/Ground/Ground_Step1.wav using Guid(dbe4405baeea2404ba3d422430b5fd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ecde1a5564c8ec443d29befd93f906') in 0.021357 seconds 
-  Import took 0.025035 seconds .
+  Time since last request: 0.000190 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_Pendek_2_P1.fbx
+  artifactKey: Guid(68fd3317ba6cf664b841b0c447ba6d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_Pendek_2_P1.fbx using Guid(68fd3317ba6cf664b841b0c447ba6d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478543a40bc5b5d3be92cb1fc61fac9e') in 0.035044 seconds 
+  Import took 0.039680 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Audio/Classic Footstep SFX/Ground/Ground_Step4.wav
-  artifactKey: Guid(b662731f964d624449b092d4198147de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Classic Footstep SFX/Ground/Ground_Step4.wav using Guid(b662731f964d624449b092d4198147de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65057ad6386dbe2d342b95e37e61626e') in 0.020035 seconds 
-  Import took 0.023568 seconds .
+  Time since last request: 0.000218 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_1_P1.fbx
+  artifactKey: Guid(b7d0f203711da4b40ade4e34c213be22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_1_P1.fbx using Guid(b7d0f203711da4b40ade4e34c213be22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeca9ddf9e4dcbee19f83dfd1786dc7c') in 0.034220 seconds 
+  Import took 0.040383 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Audio/Classic Footstep SFX/Ground/Ground_Running_loop3.wav
-  artifactKey: Guid(398a631f92a5b2e4fbbf36e67e05e653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Classic Footstep SFX/Ground/Ground_Running_loop3.wav using Guid(398a631f92a5b2e4fbbf36e67e05e653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b087b8373290354dbedcffe8b69e0ec1') in 0.021269 seconds 
-  Import took 0.025046 seconds .
+  Time since last request: 0.000252 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_Pendek_3.fbx
+  artifactKey: Guid(b0b4b1dd9c6075e4da8773a2dbf2fb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_Pendek_3.fbx using Guid(b0b4b1dd9c6075e4da8773a2dbf2fb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c8cba3efdb8178815d750d3c16e022') in 0.030932 seconds 
+  Import took 0.036687 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Audio/Classic Footstep SFX/Ground/Ground_Running_loop1.wav
-  artifactKey: Guid(69a1cba5022b43b478202d9b934c61bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Classic Footstep SFX/Ground/Ground_Running_loop1.wav using Guid(69a1cba5022b43b478202d9b934c61bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65bb7de802959cc62e6332fe1006b44') in 0.019581 seconds 
-  Import took 0.024106 seconds .
+  Time since last request: 0.000205 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_3_P2.fbx
+  artifactKey: Guid(15f53ce3bb1355745abee1cf77d9289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_3_P2.fbx using Guid(15f53ce3bb1355745abee1cf77d9289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93295989bcccf84607505fc46151d290') in 0.033313 seconds 
+  Import took 0.037729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P3.fbx
+  artifactKey: Guid(22dc83044bcdfb84890b606e85bcf1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P3.fbx using Guid(22dc83044bcdfb84890b606e85bcf1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295b67c9111cce010f1a60c2bb4cdc8f') in 0.035408 seconds 
+  Import took 0.042090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_2_P3.fbx
+  artifactKey: Guid(a180c0568da0c6a42be2bb6a28eff202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_2_P3.fbx using Guid(a180c0568da0c6a42be2bb6a28eff202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b389c8331e2f10840acb8064bdbaa2') in 0.034449 seconds 
+  Import took 0.038823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_2_P2.fbx
+  artifactKey: Guid(309ef7a1dc7ec424180cfc058f606909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_2_P2.fbx using Guid(309ef7a1dc7ec424180cfc058f606909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cceb98868338aa9820eb901ac9fe0fcc') in 0.029458 seconds 
+  Import took 0.033449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_1_P2.fbx
+  artifactKey: Guid(e98d836f78eb9d048aa2332ed35b1c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_1_P2.fbx using Guid(e98d836f78eb9d048aa2332ed35b1c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978156b378dcca3246661f2ec33c41d4') in 0.029771 seconds 
+  Import took 0.033528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_2_P4.fbx
+  artifactKey: Guid(6404dadd5e2228a4f9b60ac5ffebfb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_2_P4.fbx using Guid(6404dadd5e2228a4f9b60ac5ffebfb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b7c154e9c0c1fe3c673e772069a5eb') in 0.030100 seconds 
+  Import took 0.033273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_3.fbx
+  artifactKey: Guid(f2a2ae899fbf7044692047135299e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_3.fbx using Guid(f2a2ae899fbf7044692047135299e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0fec8c7f11c7943d490f229293efe59') in 0.027545 seconds 
+  Import took 0.031580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_3_P1.fbx
+  artifactKey: Guid(cda461280230a1b488a24cd5b94e6dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_3_P1.fbx using Guid(cda461280230a1b488a24cd5b94e6dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c703f3d1adcd5dabecfc4a7f581a026') in 0.030112 seconds 
+  Import took 0.034846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P1.fbx
+  artifactKey: Guid(91b3f3ae776d159458016dc23ffa55cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P1.fbx using Guid(91b3f3ae776d159458016dc23ffa55cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4720afdbecfe5320a1d8fd6b00b83bd0') in 0.029239 seconds 
+  Import took 0.033229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P4.fbx
+  artifactKey: Guid(ed4d1259c4c40a7479074d965747ccaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P4.fbx using Guid(ed4d1259c4c40a7479074d965747ccaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b71f41338e94d92b1d882386dc0476') in 0.031281 seconds 
+  Import took 0.038409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000620 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_2.fbx
+  artifactKey: Guid(0a4efcbbb7c7fca4abc5661f5bbc5c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_2.fbx using Guid(0a4efcbbb7c7fca4abc5661f5bbc5c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30540b54b416bde54960e807a4196350') in 0.028740 seconds 
+  Import took 0.035300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.559695 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P5.fbx
+  artifactKey: Guid(fb046b1a05a154441a4df73e1e7d1184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P5.fbx using Guid(fb046b1a05a154441a4df73e1e7d1184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda3de8a93a35fc6681007f591050bb0') in 0.021434 seconds 
+  Import took 0.038330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.310485 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_1_Full.fbx
+  artifactKey: Guid(07e37b55ee4ea1b4ebaa3ecb961fbb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_1_Full.fbx using Guid(07e37b55ee4ea1b4ebaa3ecb961fbb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bd53b482fbd2472c23475e13b52bc4') in 0.061924 seconds 
+  Import took 0.066623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_2_Full.fbx
+  artifactKey: Guid(2125a82989b43ff41aac161beb101933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_2_Full.fbx using Guid(2125a82989b43ff41aac161beb101933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2c78d8a393cb0d6c8df86705ff0290') in 0.099336 seconds 
+  Import took 0.104646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2509.373509 seconds.
+  path: Assets/3D Asset/PropsRumah/Box_004_Tapes_001_BaseColor.png
+  artifactKey: Guid(97d503f90e2e6434298c9aea9db3b9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Box_004_Tapes_001_BaseColor.png using Guid(97d503f90e2e6434298c9aea9db3b9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14100a71affb3aa2b75f2b6ae14db5e') in 0.056716 seconds 
+  Import took 0.086509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/3D Asset/PropsRumah/BpxesOpen_001_lambert1_BaseColor.png
+  artifactKey: Guid(7d42f6e0f76ec9648b5ede1187fcda67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/BpxesOpen_001_lambert1_BaseColor.png using Guid(7d42f6e0f76ec9648b5ede1187fcda67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5ac5594a93638b7e03050462fff402') in 0.015126 seconds 
+  Import took 0.020361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/3D Asset/PropsRumah/Box_006_Box_001_BaseColor.png
+  artifactKey: Guid(2347ce3a5e0701c438fd39cf1bfbb675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Box_006_Box_001_BaseColor.png using Guid(2347ce3a5e0701c438fd39cf1bfbb675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb9f5590e808c144de4fee7e1850469') in 0.021376 seconds 
+  Import took 0.026328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/3D Asset/PropsRumah/BpxesOpen_002_lambert1_BaseColor.png
+  artifactKey: Guid(e59dd45329601d740a1c614a322dbe85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/BpxesOpen_002_lambert1_BaseColor.png using Guid(e59dd45329601d740a1c614a322dbe85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf13c5f97a5afc768ce0ac93d68b4cd2') in 0.025237 seconds 
+  Import took 0.030673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/3D Asset/PropsRumah/Box_005_Box_001_BaseColor.png
+  artifactKey: Guid(e0c3696420034a942ad3b36c7a73f00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Box_005_Box_001_BaseColor.png using Guid(e0c3696420034a942ad3b36c7a73f00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47aad9d28e263827a6dc6c88c3e0e4a0') in 0.018854 seconds 
+  Import took 0.029672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/3D Asset/PropsRumah/Box_007_Box_001_BaseColor.png
+  artifactKey: Guid(fa28c96967236244dab37c197e0ac19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Box_007_Box_001_BaseColor.png using Guid(fa28c96967236244dab37c197e0ac19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a54c45a37e2f8952c7b1263d728ae9') in 0.019102 seconds 
+  Import took 0.024158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.302065 seconds.
+  path: Assets/3D Asset/PropsRumah/Box4.fbx
+  artifactKey: Guid(0755426c30bad124381206008b05b36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Box4.fbx using Guid(0755426c30bad124381206008b05b36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7872d5e77a5d76bed5934132c0cb56aa') in 0.042886 seconds 
+  Import took 0.048500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/3D Asset/PropsRumah/Box_003_Box_001_BaseColor.png
+  artifactKey: Guid(c805f9468b9d50e419eae084b3da9e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Box_003_Box_001_BaseColor.png using Guid(c805f9468b9d50e419eae084b3da9e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534ea9bb01b7f6bc0e740ccab54281fd') in 0.014507 seconds 
+  Import took 0.018742 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000192 seconds.
-  path: Assets/Audio/Classic Footstep SFX/Ground/Ground_Step2.wav
-  artifactKey: Guid(c8657061120b2da4fb645654b16201f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Classic Footstep SFX/Ground/Ground_Step2.wav using Guid(c8657061120b2da4fb645654b16201f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9adb58f0d43e61d689875a4bf8bca41') in 0.017427 seconds 
-  Import took 0.022558 seconds .
+  path: Assets/3D Asset/PropsRumah/Box6.fbx
+  artifactKey: Guid(f37a3aa151bd0c04dadd9e03927d7ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Box6.fbx using Guid(f37a3aa151bd0c04dadd9e03927d7ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b08f9578249266f2991256cfe822368') in 0.063877 seconds 
+  Import took 0.069068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/3D Asset/PropsRumah/Box_004_Box_001_BaseColor.png
+  artifactKey: Guid(0ac685f4ecd24f548be603a93c321ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Box_004_Box_001_BaseColor.png using Guid(0ac685f4ecd24f548be603a93c321ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552b2db5cf50dd450e254fe5941c23e5') in 0.014769 seconds 
+  Import took 0.019765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/3D Asset/PropsRumah/Box5.fbx
+  artifactKey: Guid(31dc31f449599754f84105f7c224c2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Box5.fbx using Guid(31dc31f449599754f84105f7c224c2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b5ebcc3a05a1c91e7fcf48639bd43d') in 0.038415 seconds 
+  Import took 0.043704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/3D Asset/PropsRumah/Box2.fbx
+  artifactKey: Guid(fe541d2129d4f4d4b8083b19db7d895d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Box2.fbx using Guid(fe541d2129d4f4d4b8083b19db7d895d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7bfad1666b9e1023c9940c16614cc01') in 0.040650 seconds 
+  Import took 0.045523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/3D Asset/PropsRumah/Box1.fbx
+  artifactKey: Guid(14dece3a0e342a84e9017479276637ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Box1.fbx using Guid(14dece3a0e342a84e9017479276637ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01185cbd75098553ab529924ce90ca04') in 0.032257 seconds 
+  Import took 0.036924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000545 seconds.
+  path: Assets/3D Asset/PropsRumah/Box_003_Tapes_001_BaseColor.png
+  artifactKey: Guid(66e2cbb14cf93da4c927fb0f9e52ef1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Box_003_Tapes_001_BaseColor.png using Guid(66e2cbb14cf93da4c927fb0f9e52ef1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b561c192dc7583f3fdaf1cc11a0d47') in 0.016960 seconds 
+  Import took 0.023505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/3D Asset/PropsRumah/Box_002_Tapes_001_BaseColor.png
+  artifactKey: Guid(80248261f8c131c44922078ceeee3281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Box_002_Tapes_001_BaseColor.png using Guid(80248261f8c131c44922078ceeee3281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6b4355fece8768af67230413548ff5') in 0.020702 seconds 
+  Import took 0.027782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/3D Asset/PropsRumah/Box3.fbx
+  artifactKey: Guid(156f539f6bd1e4648aa6ed82bf20c83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Box3.fbx using Guid(156f539f6bd1e4648aa6ed82bf20c83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fbf0f61aec387413855aa6b1db76f5') in 0.038510 seconds 
+  Import took 0.046180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.265612 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_2_P3.fbx
+  artifactKey: Guid(a180c0568da0c6a42be2bb6a28eff202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_2_P3.fbx using Guid(a180c0568da0c6a42be2bb6a28eff202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07a371b7c999d4b137f935750b21dac') in 0.031602 seconds 
+  Import took 0.037293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_Pendek_2.fbx
+  artifactKey: Guid(830114d839b5fa14585e25092d67c370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_Pendek_2.fbx using Guid(830114d839b5fa14585e25092d67c370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c71cf9a12b6e8629d1c0abe83a1fdaa') in 0.035391 seconds 
+  Import took 0.040780 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000221 seconds.
-  path: Assets/Audio/Classic Footstep SFX/Ground/Ground_Step3.wav
-  artifactKey: Guid(8ff53086d637af8478c1408b78b3dd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Classic Footstep SFX/Ground/Ground_Step3.wav using Guid(8ff53086d637af8478c1408b78b3dd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee147f826354a9efdb275f0c86e37fb') in 0.024955 seconds 
-  Import took 0.029732 seconds .
+  path: Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P2.fbx
+  artifactKey: Guid(152895f2272278c43aa1adc867f91f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P2.fbx using Guid(152895f2272278c43aa1adc867f91f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f64ecdd250e57b03ab72dc20319d885') in 0.041015 seconds 
+  Import took 0.045276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P5.fbx
+  artifactKey: Guid(fb046b1a05a154441a4df73e1e7d1184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P5.fbx using Guid(fb046b1a05a154441a4df73e1e7d1184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18ae25602150212720de10232b71059') in 0.040959 seconds 
+  Import took 0.045801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_Pendek_2_P1.fbx
+  artifactKey: Guid(68fd3317ba6cf664b841b0c447ba6d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_Pendek_2_P1.fbx using Guid(68fd3317ba6cf664b841b0c447ba6d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa89c4eb14b7564887a822f8ef3b6be2') in 0.033734 seconds 
+  Import took 0.038531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_Pendek_3.fbx
+  artifactKey: Guid(b0b4b1dd9c6075e4da8773a2dbf2fb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_Pendek_3.fbx using Guid(b0b4b1dd9c6075e4da8773a2dbf2fb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af42e5b90f6a2fc56180332fae24de68') in 0.032169 seconds 
+  Import took 0.036998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_3_P2.fbx
+  artifactKey: Guid(15f53ce3bb1355745abee1cf77d9289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_3_P2.fbx using Guid(15f53ce3bb1355745abee1cf77d9289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79a9920f8b0be103b15d89c8e7b9ad1') in 0.028892 seconds 
+  Import took 0.034755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P3.fbx
+  artifactKey: Guid(22dc83044bcdfb84890b606e85bcf1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P3.fbx using Guid(22dc83044bcdfb84890b606e85bcf1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b7159ed0c497e1056c8a18b61b4faf') in 0.028552 seconds 
+  Import took 0.035859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_3.fbx
+  artifactKey: Guid(f2a2ae899fbf7044692047135299e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_3.fbx using Guid(f2a2ae899fbf7044692047135299e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb9e8fee67a5e3bb4298a4443eeafa0') in 0.034995 seconds 
+  Import took 0.040798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_2_P4.fbx
+  artifactKey: Guid(6404dadd5e2228a4f9b60ac5ffebfb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_2_P4.fbx using Guid(6404dadd5e2228a4f9b60ac5ffebfb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aca7ca2d191d8d8ffa7a4de06e58610') in 0.034067 seconds 
+  Import took 0.040890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000674 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_3_P1.fbx
+  artifactKey: Guid(cda461280230a1b488a24cd5b94e6dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_3_P1.fbx using Guid(cda461280230a1b488a24cd5b94e6dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543f201a8b98227e3687ed1a7bd9679b') in 0.031415 seconds 
+  Import took 0.036721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P1.fbx
+  artifactKey: Guid(91b3f3ae776d159458016dc23ffa55cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P1.fbx using Guid(91b3f3ae776d159458016dc23ffa55cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf02631b5a5d4585e0908dac0d9a0c7') in 0.031013 seconds 
+  Import took 0.035403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P4.fbx
+  artifactKey: Guid(ed4d1259c4c40a7479074d965747ccaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_Pendek_3_P4.fbx using Guid(ed4d1259c4c40a7479074d965747ccaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e57dd0f9a8938ac5a0f94f0343db4c4') in 0.036114 seconds 
+  Import took 0.044142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.542749 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_1_Full.fbx
+  artifactKey: Guid(07e37b55ee4ea1b4ebaa3ecb961fbb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_1_Full.fbx using Guid(07e37b55ee4ea1b4ebaa3ecb961fbb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c56ce542da1806d9de23e2fbc262a0') in 0.048502 seconds 
+  Import took 0.053084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/3D Asset/PropsRumah/Box6.fbx
+  artifactKey: Guid(f37a3aa151bd0c04dadd9e03927d7ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Box6.fbx using Guid(f37a3aa151bd0c04dadd9e03927d7ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7316609f80d3718fd60e372c56a5c62') in 0.029606 seconds 
+  Import took 0.034962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_2_P1.fbx
+  artifactKey: Guid(ee7a53205d76a5343879aa4802d74f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_2_P1.fbx using Guid(ee7a53205d76a5343879aa4802d74f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab9fff383a4d7d404ded778e0eed5d7') in 0.026570 seconds 
+  Import took 0.032548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_1_P1.fbx
+  artifactKey: Guid(b7d0f203711da4b40ade4e34c213be22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_1_P1.fbx using Guid(b7d0f203711da4b40ade4e34c213be22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f98ebc7c79c07b57804ec79119d8cf5') in 0.026578 seconds 
+  Import took 0.031616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000959 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_2_Full.fbx
+  artifactKey: Guid(2125a82989b43ff41aac161beb101933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_2_Full.fbx using Guid(2125a82989b43ff41aac161beb101933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79be332347a84e9d553cbeaa23bd6e0') in 0.067423 seconds 
+  Import took 0.071188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_1.fbx
+  artifactKey: Guid(8455700b7f230e548a1795bce9e2a68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_1.fbx using Guid(8455700b7f230e548a1795bce9e2a68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216bbfb38909f40eb7c2bb452cf9afdb') in 0.026391 seconds 
+  Import took 0.029666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/3D Asset/PropsRumah/Box4.fbx
+  artifactKey: Guid(0755426c30bad124381206008b05b36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Box4.fbx using Guid(0755426c30bad124381206008b05b36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9619bbcfdf8c3ba0d504e4a8eb7b5b61') in 0.028123 seconds 
+  Import took 0.032632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/3D Asset/PropsRumah/Box5.fbx
+  artifactKey: Guid(31dc31f449599754f84105f7c224c2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Box5.fbx using Guid(31dc31f449599754f84105f7c224c2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421ca5903d01d7d61b6c989d4e3bca6d') in 0.028789 seconds 
+  Import took 0.033458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_2_P2.fbx
+  artifactKey: Guid(309ef7a1dc7ec424180cfc058f606909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_2_P2.fbx using Guid(309ef7a1dc7ec424180cfc058f606909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7bbe81a69c19086582962bbb75c88d') in 0.026144 seconds 
+  Import took 0.031307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/3D Asset/PropsRumah/Box2.fbx
+  artifactKey: Guid(fe541d2129d4f4d4b8083b19db7d895d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Box2.fbx using Guid(fe541d2129d4f4d4b8083b19db7d895d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549385639cf5dc7352c2b063736c5d4b') in 0.028771 seconds 
+  Import took 0.034108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_1_P2.fbx
+  artifactKey: Guid(e98d836f78eb9d048aa2332ed35b1c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_1_P2.fbx using Guid(e98d836f78eb9d048aa2332ed35b1c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1740e39b8546b3d02df20cf39e56949c') in 0.025388 seconds 
+  Import took 0.032905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/3D Asset/PropsRumah/Box1.fbx
+  artifactKey: Guid(14dece3a0e342a84e9017479276637ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Box1.fbx using Guid(14dece3a0e342a84e9017479276637ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb9e78a3cd56d52af8cc69f60bf36fe') in 0.025643 seconds 
+  Import took 0.030374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000654 seconds.
+  path: Assets/3D Asset/PropsRumah/Box3.fbx
+  artifactKey: Guid(156f539f6bd1e4648aa6ed82bf20c83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Box3.fbx using Guid(156f539f6bd1e4648aa6ed82bf20c83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b717a73b9d96bf3c0b04c0df8ef8223') in 0.026477 seconds 
+  Import took 0.031941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/3D Asset/PropsRumah/Lemari_2.fbx
+  artifactKey: Guid(0a4efcbbb7c7fca4abc5661f5bbc5c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Asset/PropsRumah/Lemari_2.fbx using Guid(0a4efcbbb7c7fca4abc5661f5bbc5c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49e4c8b2386cc01fd8badaee90f2db9') in 0.026503 seconds 
+  Import took 0.032330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.939039 seconds.
+  path: Assets/2D Asset/Texture/Pocong_basecolor 222.png
+  artifactKey: Guid(f18f94e25de4939419acc6dfa9393be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Asset/Texture/Pocong_basecolor 222.png using Guid(f18f94e25de4939419acc6dfa9393be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1e3f57f516ad68f331cfbc4e8cf8cb') in 0.025792 seconds 
+  Import took 0.031387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.665252 seconds.
+  path: Assets/2D Asset/font/BACK TO ANCIENT TIME (REGULAR) FONT BY 7NTYPES.otf
+  artifactKey: Guid(6a3c076bec018b54185a7d6131b13ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Asset/font/BACK TO ANCIENT TIME (REGULAR) FONT BY 7NTYPES.otf using Guid(6a3c076bec018b54185a7d6131b13ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51bed1125907413f720f860f1e040eb') in 0.079372 seconds 
+  Import took 0.084688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/2D Asset/font/Melted Monster SDF.asset
+  artifactKey: Guid(f7b9a2824dfbe3e4c8b2654edf1301e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Asset/font/Melted Monster SDF.asset using Guid(f7b9a2824dfbe3e4c8b2654edf1301e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21ea4bc150eaae74a2c15b7520007c8') in 0.167376 seconds 
+  Import took 0.172274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/2D Asset/font/Gameplay.ttf
+  artifactKey: Guid(c4502500fec582b499278a372005b9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Asset/font/Gameplay.ttf using Guid(c4502500fec582b499278a372005b9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d33a59fe9d38da3757bb5b3362df20') in 0.020203 seconds 
+  Import took 0.023858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/2D Asset/font/Gameplay SDF.asset
+  artifactKey: Guid(c868e99c25a2b0f4398d310e3162021a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Asset/font/Gameplay SDF.asset using Guid(c868e99c25a2b0f4398d310e3162021a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f345ae39f12ea6679e81ac5115e6a6') in 0.051006 seconds 
+  Import took 0.054905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/2D Asset/font/Melted Monster.ttf
+  artifactKey: Guid(a21fed28dcfe45f4394ef663133e1835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Asset/font/Melted Monster.ttf using Guid(a21fed28dcfe45f4394ef663133e1835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3c082e19d054f8409947b59f1b3e0b') in 0.021124 seconds 
+  Import took 0.026104 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
