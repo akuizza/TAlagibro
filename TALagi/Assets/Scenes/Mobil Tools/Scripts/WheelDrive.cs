@@ -11,6 +11,9 @@ public enum DriveType
 
 public class WheelDrive : MonoBehaviour
 {
+	public GameObject CamCutscene;
+
+
     [Tooltip("Maximum steering angle of the wheels")]
 	public float maxAngle = 30f;
 	[Tooltip("Maximum torque applied to the driving wheels")]
@@ -35,6 +38,8 @@ public class WheelDrive : MonoBehaviour
     // Find all the WheelColliders down in the hierarchy.
 	void Start()
 	{
+		CamCutscene.SetActive(false);
+
 		m_Wheels = GetComponentsInChildren<WheelCollider>();
 
 		for (int i = 0; i < m_Wheels.Length; ++i) 

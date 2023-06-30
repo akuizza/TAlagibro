@@ -278,8 +278,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.9433962, g: 0.8196455, b: 0.24385896, a: 1}
-  m_Intensity: 2.52
+  m_Color: {r: 0.9433962, g: 0.8196455, b: 0.6392157, a: 1}
+  m_Intensity: 0.67
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -321,7 +321,7 @@ Light:
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 0.97
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -369,10 +369,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 692378037}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b20fe3201d79ce469b0915a4f0709f9, type: 3}
+  m_Script: {fileID: 11500000, guid: 484014616bed15244aa12a14b7906955, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NamaScene: 
+  sceneNama: MainMenu
 --- !u!4 &692378039
 Transform:
   m_ObjectHideFlags: 0
@@ -471,7 +471,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &1051537293
 Animator:
   serializedVersion: 3
