@@ -8,6 +8,8 @@ public class Paused : MonoBehaviour
 //public GameObject Player;
 public GameObject pauseMenu;
 public bool isPaused;
+	public GameObject player;
+	FPScript playerFPS;
 
 void Start()
 {
@@ -34,7 +36,7 @@ public void PauseGame()
 	pauseMenu.SetActive(true);
 	Time.timeScale = 0f;
 	isPaused = true;
-	//Player.GetComponent<FPController>().enabled = false;
+	player.GetComponent<FPScript>().enabled = false;
 	Cursor.visible = true;
     Cursor.lockState = CursorLockMode.None;
 }
@@ -42,8 +44,8 @@ public void PauseGame()
 public void ResumeGame()
 {
 	pauseMenu.SetActive(false);
-	//Player.GetComponent<FPController>().enabled = true;
-	Time.timeScale = 1f;
+		player.GetComponent<FPScript>().enabled = true;
+		Time.timeScale = 1f;
 	isPaused = false;
 	Cursor.visible = false;
 }
