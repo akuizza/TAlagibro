@@ -38,6 +38,8 @@ public class WheelDrive : MonoBehaviour
     // Find all the WheelColliders down in the hierarchy.
 	void Start()
 	{
+		Cursor.visible = false;
+
 		CamCutscene.SetActive(false);
 
 		m_Wheels = GetComponentsInChildren<WheelCollider>();

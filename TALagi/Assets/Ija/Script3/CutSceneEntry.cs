@@ -8,6 +8,7 @@ public class CutSceneEntry : MonoBehaviour
     public GameObject TimeLine;
     public GameObject CamRender;
     public GameObject CanvasText;
+    public GameObject Canvas;
 
 
     private void OnTriggerEnter(Collider other)
@@ -16,6 +17,7 @@ public class CutSceneEntry : MonoBehaviour
         CamRender.SetActive(true);
         TimeLine.SetActive(true);
         thePlayer.SetActive(false);
+        Canvas.SetActive(false);
 
     }
 

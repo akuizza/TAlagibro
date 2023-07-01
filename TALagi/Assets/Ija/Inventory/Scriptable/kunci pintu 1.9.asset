@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item:
     m_name: kunci pintu 1.9
-    sprite: {fileID: 21300000, guid: 9c33c1252bf0df143923717e002c0892, type: 3}
+    sprite: {fileID: 21300000, guid: a17e5a2682780934db4bf944607dbf36, type: 3}

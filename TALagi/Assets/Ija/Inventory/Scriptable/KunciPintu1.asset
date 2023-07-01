@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item:
     m_name: KunciPintu1
-    sprite: {fileID: 21300000, guid: 9c33c1252bf0df143923717e002c0892, type: 3}
+    sprite: {fileID: 21300000, guid: 8a42d3dcb2255504d889b876dbf81a49, type: 3}
