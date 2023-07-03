@@ -5193,7 +5193,7 @@ Transform:
   m_GameObject: {fileID: 642031819}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -37.38, y: -3.89, z: -7.43}
-  m_LocalScale: {x: 34.28476, y: 8.1648, z: 2.014707}
+  m_LocalScale: {x: 48.598648, y: 8.1648, z: 2.014707}
   m_Children: []
   m_Father: {fileID: 1064455350}
   m_RootOrder: 0
@@ -9587,7 +9587,7 @@ MonoBehaviour:
   TimeLine: {fileID: 1961877028}
   CamRender: {fileID: 751145161}
   CanvasText: {fileID: 1783030194}
-  Canvas: {fileID: 0}
+  Canvas: {fileID: 419261820}
 --- !u!65 &1229214038
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12665,7 +12665,7 @@ Transform:
   m_GameObject: {fileID: 1714574533}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -37.38, y: -3.89, z: 3.23}
-  m_LocalScale: {x: 34.28476, y: 8.1648, z: 2.014707}
+  m_LocalScale: {x: 40.205738, y: 8.1648, z: 2.014707}
   m_Children: []
   m_Father: {fileID: 1064455350}
   m_RootOrder: 1
@@ -13300,7 +13300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 170ad440474d503489355f440d658739, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioJumpscare: {fileID: 0}
+  audioJumpscare: {fileID: 997786583}
 --- !u!65 &1798092297
 BoxCollider:
   m_ObjectHideFlags: 0
