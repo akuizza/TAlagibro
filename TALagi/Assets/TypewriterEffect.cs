@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class TypewriterEffect : MonoBehaviour
 {
     public float typingSpeed = 0.1f; // Kecepatan pengetikan
     private string fullText;
     private string currentText = "";
+    //public string namaScene;
 
     private void Start()
     {
@@ -25,6 +27,8 @@ public class TypewriterEffect : MonoBehaviour
             GetComponent<TextMeshProUGUI>().text = currentText; // Untuk TextMeshPro
             // GetComponent<Text>().text = currentText; // Untuk Text sebelum Unity 2018.2.0
             yield return new WaitForSeconds(typingSpeed);
+            //SceneManager.LoadScene(namaScene);
+          
         }
     }
 }

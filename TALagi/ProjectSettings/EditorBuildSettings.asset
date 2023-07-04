@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 4f8889dcea083024690c418f0185fd23
   - enabled: 1
-    path: Assets/Scenes/Pengaturan.unity
-    guid: a0a027e1766ab1843a06c74474442bcb
-  - enabled: 1
     path: Assets/Scenes/1.unity
     guid: 5383afd2b7d8b8f43a1a8b3ec8f12c15
   - enabled: 1
@@ -26,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Good Ending.unity
     guid: 99c172aacd30f7144ab50dea98380d00
+  - enabled: 1
+    path: Assets/Scenes/Narasi.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
