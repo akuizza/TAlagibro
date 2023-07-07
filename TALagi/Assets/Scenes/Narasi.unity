@@ -447,7 +447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 508e6005edecf5a4285697d374730bc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  typingSpeed: 0.01
+  typingSpeed: 0.1
   targetSceneName: MainMenu
 --- !u!1 &342772281
 GameObject:
