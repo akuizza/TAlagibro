@@ -2146,7 +2146,7 @@ GameObject:
   - component: {fileID: 91773917}
   - component: {fileID: 91773916}
   m_Layer: 7
-  m_Name: Pintu1.13
+  m_Name: Pintu 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2912,7 +2912,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: dfd2c542450436646a72498e95116646, type: 3}
       propertyPath: m_Name
-      value: Rumah2
+      value: R11
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: dfd2c542450436646a72498e95116646, type: 3}
       propertyPath: m_IsActive
@@ -17534,7 +17534,7 @@ GameObject:
   - component: {fileID: 473949127}
   - component: {fileID: 473949125}
   m_Layer: 7
-  m_Name: Pintu1.9
+  m_Name: Pintu 12.1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -25771,7 +25771,7 @@ GameObject:
   - component: {fileID: 677497172}
   - component: {fileID: 677497171}
   m_Layer: 7
-  m_Name: 'Pintu 1.8 '
+  m_Name: Pintu 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -38817,7 +38817,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fba8d7145185543449dd54c8885c1dc3, type: 3}
       propertyPath: m_Name
-      value: Rumah3
+      value: R10
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fba8d7145185543449dd54c8885c1dc3, type: 3}
       propertyPath: m_IsActive
@@ -43811,7 +43811,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c0427ec1ca7dca741a115e32a86f3351, type: 3}
       propertyPath: m_Name
-      value: Rumah1
+      value: R6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c0427ec1ca7dca741a115e32a86f3351, type: 3}
       propertyPath: m_IsActive
@@ -50986,7 +50986,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1270552787}
   m_Layer: 0
-  m_Name: R9
+  m_Name: R8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51222,7 +51222,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1284364687}
   m_Layer: 0
-  m_Name: R6
+  m_Name: R5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60043,7 +60043,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1525751143}
   m_Layer: 0
-  m_Name: R7
+  m_Name: R3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64352,7 +64352,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ce4bfb921481c0e458f4017de20a670c, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -65189,7 +65189,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4246093254173124232, guid: cd35195d499f36e4c96d575d7cddbe30, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 317.8
+      value: 108.51068
       objectReference: {fileID: 0}
     - target: {fileID: 4246093254173124232, guid: cd35195d499f36e4c96d575d7cddbe30, type: 3}
       propertyPath: m_LocalPosition.y
@@ -65197,7 +65197,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4246093254173124232, guid: cd35195d499f36e4c96d575d7cddbe30, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 56.8
+      value: 192.65213
       objectReference: {fileID: 0}
     - target: {fileID: 4246093254173124232, guid: cd35195d499f36e4c96d575d7cddbe30, type: 3}
       propertyPath: m_LocalRotation.w
@@ -71649,7 +71649,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1810413937}
   m_Layer: 0
-  m_Name: R8
+  m_Name: R4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -83546,7 +83546,7 @@ GameObject:
   - component: {fileID: 2089413050}
   - component: {fileID: 2089413051}
   m_Layer: 7
-  m_Name: Pintu1.7
+  m_Name: Pintu 12.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -84970,7 +84970,7 @@ GameObject:
   - component: {fileID: 2133556675}
   - component: {fileID: 2133556676}
   m_Layer: 7
-  m_Name: Pintu laknat
+  m_Name: Pintu 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
