@@ -48,7 +48,7 @@ public class Raycast : MonoBehaviour
     IEnumerator UINotification(OnRaycast or)
     {
         textNotification.gameObject.SetActive(true);
-        textNotification.text = or.gameObject.name + "Membutuhkan item " + or.requirementItem.item.m_name;
+        textNotification.text = or.gameObject.name + " Membutuhkan item " + or.requirementItem.item.m_name;
         yield return new WaitForSeconds(5);
         textNotification.gameObject.SetActive(false); 
     }

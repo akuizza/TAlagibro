@@ -15,6 +15,8 @@ public class TypewriterEffect : MonoBehaviour
 
     private void Start()
     {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
         fullText = GetComponent<TextMeshProUGUI>().text; // Untuk TextMeshPro
         // fullText = GetComponent<Text>().text; // Untuk Text sebelum Unity 2018.2.0
         StartCoroutine(ShowText());
@@ -42,5 +44,6 @@ public class TypewriterEffect : MonoBehaviour
     private void LoadTargetScene()
     {
         SceneManager.LoadScene(targetSceneName);
+        
     }
 }
