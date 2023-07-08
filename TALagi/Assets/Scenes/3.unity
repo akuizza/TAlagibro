@@ -20032,7 +20032,6 @@ GameObject:
   - component: {fileID: 529401363}
   - component: {fileID: 529401362}
   - component: {fileID: 529401361}
-  - component: {fileID: 529401364}
   - component: {fileID: 529401365}
   m_Layer: 0
   m_Name: Trigerd Good Ending
@@ -20117,19 +20116,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 529401359}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &529401364
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 529401359}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 484014616bed15244aa12a14b7906955, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneNama: Good Ending
 --- !u!114 &529401365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65831,6 +65817,10 @@ PrefabInstance:
       propertyPath: grassClips.Array.data[0]
       value: 
       objectReference: {fileID: 8300000, guid: 76038e5e02d2f5540918ce47e1d03019, type: 3}
+    - target: {fileID: 4246093254173124235, guid: cd35195d499f36e4c96d575d7cddbe30, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd35195d499f36e4c96d575d7cddbe30, type: 3}
 --- !u!1 &1660289594 stripped
