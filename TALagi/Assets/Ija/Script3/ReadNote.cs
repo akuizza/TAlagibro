@@ -47,8 +47,19 @@ public class ReadNote : MonoBehaviour
             player.GetComponent<FPScript>().enabled = false;
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
+        }else{
+            if(Input.GetKeyDown(KeyCode.Q)){
+                ExitButton();
+            }
         }
+        
     }
+
+    public void Note()
+    {
+        
+    }
+
 
     public void ExitButton()
     {
@@ -56,5 +67,6 @@ public class ReadNote : MonoBehaviour
         player.GetComponent<FPScript>().enabled = true;
         Cursor.visible = false;
         //Cursor.lockState = CursorLockMode.None;
+        
     }
 }
